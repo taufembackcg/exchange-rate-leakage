@@ -1,0 +1,17 @@
+# API key and downloaded data (see README)
+fred_key.txt
+OECD.SDD.STES,DSD_STES@DF_MONAGG,4.0+all.csv
+
+# Created by the pipeline
+outputs/
+outputs_*/
+models/
+logs/
+*.rds
+
+# R and system files
+.Rhistory
+.RData
+.Rproj.user/
+Thumbs.db
+.DS_Store

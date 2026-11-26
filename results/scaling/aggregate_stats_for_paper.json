@@ -1,0 +1,3544 @@
+{
+  "n_total": 16416,
+  "n_beat": 1463,
+  "pct_beat": 8.9,
+  "n_sig05_among_beat": 75,
+  "pct_sig05_among_beat": 5.1,
+  "n_cw_sig05": 1477,
+  "pct_cw_sig05": 9,
+  "n_cw_sig05_among_beat": 896,
+  "pct_cw_sig05_among_beat": 61.2,
+  "by_horizon": [
+    {
+      "horizon": "h1",
+      "n": 1368,
+      "n_beat": 107,
+      "pct_beat": 7.8,
+      "n_sig05": 0,
+      "pct_sig05": 0,
+      "n_cw_sig05": 60,
+      "pct_cw_sig05": 4.4
+    },
+    {
+      "horizon": "h2",
+      "n": 1368,
+      "n_beat": 57,
+      "pct_beat": 4.2,
+      "n_sig05": 3,
+      "pct_sig05": 0.2,
+      "n_cw_sig05": 69,
+      "pct_cw_sig05": 5
+    },
+    {
+      "horizon": "h3",
+      "n": 1368,
+      "n_beat": 88,
+      "pct_beat": 6.4,
+      "n_sig05": 2,
+      "pct_sig05": 0.1,
+      "n_cw_sig05": 89,
+      "pct_cw_sig05": 6.5
+    },
+    {
+      "horizon": "h4",
+      "n": 1368,
+      "n_beat": 125,
+      "pct_beat": 9.1,
+      "n_sig05": 2,
+      "pct_sig05": 0.1,
+      "n_cw_sig05": 116,
+      "pct_cw_sig05": 8.5
+    },
+    {
+      "horizon": "h5",
+      "n": 1368,
+      "n_beat": 144,
+      "pct_beat": 10.5,
+      "n_sig05": 6,
+      "pct_sig05": 0.4,
+      "n_cw_sig05": 139,
+      "pct_cw_sig05": 10.2
+    },
+    {
+      "horizon": "h6",
+      "n": 1368,
+      "n_beat": 130,
+      "pct_beat": 9.5,
+      "n_sig05": 5,
+      "pct_sig05": 0.4,
+      "n_cw_sig05": 123,
+      "pct_cw_sig05": 9
+    },
+    {
+      "horizon": "h7",
+      "n": 1368,
+      "n_beat": 120,
+      "pct_beat": 8.8,
+      "n_sig05": 11,
+      "pct_sig05": 0.8,
+      "n_cw_sig05": 120,
+      "pct_cw_sig05": 8.8
+    },
+    {
+      "horizon": "h8",
+      "n": 1368,
+      "n_beat": 125,
+      "pct_beat": 9.1,
+      "n_sig05": 11,
+      "pct_sig05": 0.8,
+      "n_cw_sig05": 129,
+      "pct_cw_sig05": 9.4
+    },
+    {
+      "horizon": "h9",
+      "n": 1368,
+      "n_beat": 122,
+      "pct_beat": 8.9,
+      "n_sig05": 4,
+      "pct_sig05": 0.3,
+      "n_cw_sig05": 136,
+      "pct_cw_sig05": 9.9
+    },
+    {
+      "horizon": "h10",
+      "n": 1368,
+      "n_beat": 148,
+      "pct_beat": 10.8,
+      "n_sig05": 8,
+      "pct_sig05": 0.6,
+      "n_cw_sig05": 158,
+      "pct_cw_sig05": 11.5
+    },
+    {
+      "horizon": "h11",
+      "n": 1368,
+      "n_beat": 151,
+      "pct_beat": 11,
+      "n_sig05": 11,
+      "pct_sig05": 0.8,
+      "n_cw_sig05": 161,
+      "pct_cw_sig05": 11.8
+    },
+    {
+      "horizon": "h12",
+      "n": 1368,
+      "n_beat": 146,
+      "pct_beat": 10.7,
+      "n_sig05": 12,
+      "pct_sig05": 0.9,
+      "n_cw_sig05": 177,
+      "pct_cw_sig05": 12.9
+    }
+  ],
+  "h1": {
+    "horizon": "h1",
+    "n": 1368,
+    "n_beat": 107,
+    "pct_beat": 7.8,
+    "n_sig05": 0,
+    "pct_sig05": 0,
+    "n_cw_sig05": 60,
+    "pct_cw_sig05": 4.4
+  },
+  "h12": {
+    "horizon": "h12",
+    "n": 1368,
+    "n_beat": 146,
+    "pct_beat": 10.7,
+    "n_sig05": 12,
+    "pct_sig05": 0.9,
+    "n_cw_sig05": 177,
+    "pct_cw_sig05": 12.9
+  },
+  "share_wins_at_h12": 10,
+  "by_spec": [
+    {
+      "model_type": "dif",
+      "n": 8208,
+      "n_beat": 897,
+      "pct_beat": 10.9,
+      "n_sig05_among_beat": 45,
+      "pct_sig05_among_beat": 5
+    },
+    {
+      "model_type": "ecm",
+      "n": 8208,
+      "n_beat": 566,
+      "pct_beat": 6.9,
+      "n_sig05_among_beat": 30,
+      "pct_sig05_among_beat": 5.3
+    }
+  ],
+  "by_method": [
+    {
+      "method": "spi",
+      "n": 1368,
+      "n_beat": 258,
+      "pct_beat": 18.9,
+      "n_sig05": 22,
+      "pct_sig05": 1.6,
+      "pct_sig05_among_beat": 8.5
+    },
+    {
+      "method": "lasso",
+      "n": 1368,
+      "n_beat": 221,
+      "pct_beat": 16.2,
+      "n_sig05": 1,
+      "pct_sig05": 0.1,
+      "pct_sig05_among_beat": 0.5
+    },
+    {
+      "method": "sp",
+      "n": 1368,
+      "n_beat": 205,
+      "pct_beat": 15,
+      "n_sig05": 0,
+      "pct_sig05": 0,
+      "pct_sig05_among_beat": 0
+    },
+    {
+      "method": "svmlw2",
+      "n": 1368,
+      "n_beat": 189,
+      "pct_beat": 13.8,
+      "n_sig05": 45,
+      "pct_sig05": 3.3,
+      "pct_sig05_among_beat": 23.8
+    },
+    {
+      "method": "ridge",
+      "n": 1368,
+      "n_beat": 185,
+      "pct_beat": 13.5,
+      "n_sig05": 1,
+      "pct_sig05": 0.1,
+      "pct_sig05_among_beat": 0.5
+    },
+    {
+      "method": "svmr",
+      "n": 1368,
+      "n_beat": 147,
+      "pct_beat": 10.7,
+      "n_sig05": 1,
+      "pct_sig05": 0.1,
+      "pct_sig05_among_beat": 0.7
+    },
+    {
+      "method": "pcr",
+      "n": 1368,
+      "n_beat": 106,
+      "pct_beat": 7.7,
+      "n_sig05": 3,
+      "pct_sig05": 0.2,
+      "pct_sig05_among_beat": 2.8
+    },
+    {
+      "method": "forest",
+      "n": 1368,
+      "n_beat": 46,
+      "pct_beat": 3.4,
+      "n_sig05": 0,
+      "pct_sig05": 0,
+      "pct_sig05_among_beat": 0
+    },
+    {
+      "method": "earth",
+      "n": 1368,
+      "n_beat": 34,
+      "pct_beat": 2.5,
+      "n_sig05": 0,
+      "pct_sig05": 0,
+      "pct_sig05_among_beat": 0
+    },
+    {
+      "method": "lm",
+      "n": 1368,
+      "n_beat": 33,
+      "pct_beat": 2.4,
+      "n_sig05": 2,
+      "pct_sig05": 0.1,
+      "pct_sig05_among_beat": 6.1
+    },
+    {
+      "method": "gam",
+      "n": 1368,
+      "n_beat": 25,
+      "pct_beat": 1.8,
+      "n_sig05": 0,
+      "pct_sig05": 0,
+      "pct_sig05_among_beat": 0
+    },
+    {
+      "method": "gamboost",
+      "n": 1368,
+      "n_beat": 14,
+      "pct_beat": 1,
+      "n_sig05": 0,
+      "pct_sig05": 0,
+      "pct_sig05_among_beat": 0
+    }
+  ],
+  "by_class": [
+    {
+      "class": "linear",
+      "n": 5472,
+      "n_beat": 545,
+      "pct_beat": 10
+    },
+    {
+      "class": "nonlinear",
+      "n": 10944,
+      "n_beat": 918,
+      "pct_beat": 8.4
+    }
+  ],
+  "by_country": [
+    {
+      "country": "in",
+      "n": 1152,
+      "n_beat": 506,
+      "pct_beat": 43.9,
+      "n_sig05": 30,
+      "pct_sig05": 2.6
+    },
+    {
+      "country": "id",
+      "n": 1152,
+      "n_beat": 370,
+      "pct_beat": 32.1,
+      "n_sig05": 41,
+      "pct_sig05": 3.6
+    },
+    {
+      "country": "ru",
+      "n": 1440,
+      "n_beat": 279,
+      "pct_beat": 19.4,
+      "n_sig05": 3,
+      "pct_sig05": 0.2
+    },
+    {
+      "country": "fr",
+      "n": 1152,
+      "n_beat": 73,
+      "pct_beat": 6.3,
+      "n_sig05": 1,
+      "pct_sig05": 0.1
+    },
+    {
+      "country": "za",
+      "n": 1440,
+      "n_beat": 87,
+      "pct_beat": 6,
+      "n_sig05": 0,
+      "pct_sig05": 0
+    },
+    {
+      "country": "gb",
+      "n": 1440,
+      "n_beat": 55,
+      "pct_beat": 3.8,
+      "n_sig05": 0,
+      "pct_sig05": 0
+    },
+    {
+      "country": "se",
+      "n": 1440,
+      "n_beat": 31,
+      "pct_beat": 2.2,
+      "n_sig05": 0,
+      "pct_sig05": 0
+    },
+    {
+      "country": "dk",
+      "n": 1440,
+      "n_beat": 29,
+      "pct_beat": 2,
+      "n_sig05": 0,
+      "pct_sig05": 0
+    },
+    {
+      "country": "cn",
+      "n": 1440,
+      "n_beat": 12,
+      "pct_beat": 0.8,
+      "n_sig05": 0,
+      "pct_sig05": 0
+    },
+    {
+      "country": "jp",
+      "n": 1440,
+      "n_beat": 10,
+      "pct_beat": 0.7,
+      "n_sig05": 0,
+      "pct_sig05": 0
+    },
+    {
+      "country": "br",
+      "n": 1440,
+      "n_beat": 8,
+      "pct_beat": 0.6,
+      "n_sig05": 0,
+      "pct_sig05": 0
+    },
+    {
+      "country": "ca",
+      "n": 1440,
+      "n_beat": 3,
+      "pct_beat": 0.2,
+      "n_sig05": 0,
+      "pct_sig05": 0
+    }
+  ],
+  "by_model": [
+    {
+      "model": "monetary_standard",
+      "model_label": "Monetary model",
+      "n": 3456,
+      "n_beat": 348,
+      "pct_beat": 10.1,
+      "n_sig05": 19,
+      "pct_sig05": 0.5
+    },
+    {
+      "model": "monetary_sticky",
+      "model_label": "Monetary model, sticky prices",
+      "n": 3456,
+      "n_beat": 329,
+      "pct_beat": 9.5,
+      "n_sig05": 14,
+      "pct_sig05": 0.4
+    },
+    {
+      "model": "monetary_flexible_uip",
+      "model_label": "Monetary model, UIP deviations",
+      "n": 3456,
+      "n_beat": 325,
+      "pct_beat": 9.4,
+      "n_sig05": 21,
+      "pct_sig05": 0.6
+    },
+    {
+      "model": "monetary_sticky_uip",
+      "model_label": "Monetary model, sticky prices, UIP deviations",
+      "n": 3456,
+      "n_beat": 321,
+      "pct_beat": 9.3,
+      "n_sig05": 20,
+      "pct_sig05": 0.6
+    },
+    {
+      "model": "taylor",
+      "model_label": "Taylor rule model",
+      "n": 2592,
+      "n_beat": 140,
+      "pct_beat": 5.4,
+      "n_sig05": 1,
+      "pct_sig05": 0
+    }
+  ],
+  "lm_check": [
+    {
+      "model_type": "dif",
+      "n": 684,
+      "n_beat": 23,
+      "pct_beat": 3.4
+    },
+    {
+      "model_type": "ecm",
+      "n": 684,
+      "n_beat": 10,
+      "pct_beat": 1.5
+    }
+  ],
+  "best_method_rmse": [
+    {
+      "method": "spi",
+      "mean_rel_rmse": 1.038
+    },
+    {
+      "method": "sp",
+      "mean_rel_rmse": 1.062
+    },
+    {
+      "method": "svmr",
+      "mean_rel_rmse": 1.069
+    },
+    {
+      "method": "ridge",
+      "mean_rel_rmse": 1.138
+    },
+    {
+      "method": "forest",
+      "mean_rel_rmse": 1.148
+    },
+    {
+      "method": "lasso",
+      "mean_rel_rmse": 1.151
+    },
+    {
+      "method": "svmlw2",
+      "mean_rel_rmse": 1.173
+    },
+    {
+      "method": "pcr",
+      "mean_rel_rmse": 1.214
+    },
+    {
+      "method": "lm",
+      "mean_rel_rmse": 1.629
+    },
+    {
+      "method": "earth",
+      "mean_rel_rmse": 1.747
+    },
+    {
+      "method": "gam",
+      "mean_rel_rmse": 1.824
+    },
+    {
+      "method": "gamboost",
+      "mean_rel_rmse": 1.889
+    }
+  ],
+  "eval_windows": [
+    {
+      "country": "br",
+      "horizon": "h1",
+      "n_specs": 120,
+      "common_start": "2012-05-01",
+      "common_end": "2026-05-01",
+      "n_common": 169,
+      "latest_start": "2012-05-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 172
+    },
+    {
+      "country": "br",
+      "horizon": "h2",
+      "n_specs": 120,
+      "common_start": "2012-07-01",
+      "common_end": "2026-05-01",
+      "n_common": 167,
+      "latest_start": "2012-07-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 169
+    },
+    {
+      "country": "br",
+      "horizon": "h3",
+      "n_specs": 120,
+      "common_start": "2012-09-01",
+      "common_end": "2026-05-01",
+      "n_common": 165,
+      "latest_start": "2012-09-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 166
+    },
+    {
+      "country": "br",
+      "horizon": "h4",
+      "n_specs": 120,
+      "common_start": "2012-11-01",
+      "common_end": "2026-05-01",
+      "n_common": 163,
+      "latest_start": "2012-11-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 163
+    },
+    {
+      "country": "br",
+      "horizon": "h5",
+      "n_specs": 120,
+      "common_start": "2013-01-01",
+      "common_end": "2026-04-01",
+      "n_common": 160,
+      "latest_start": "2013-01-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 160
+    },
+    {
+      "country": "br",
+      "horizon": "h6",
+      "n_specs": 120,
+      "common_start": "2013-03-01",
+      "common_end": "2026-03-01",
+      "n_common": 157,
+      "latest_start": "2013-03-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 157
+    },
+    {
+      "country": "br",
+      "horizon": "h7",
+      "n_specs": 120,
+      "common_start": "2013-05-01",
+      "common_end": "2026-02-01",
+      "n_common": 154,
+      "latest_start": "2013-05-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 154
+    },
+    {
+      "country": "br",
+      "horizon": "h8",
+      "n_specs": 120,
+      "common_start": "2013-07-01",
+      "common_end": "2026-01-01",
+      "n_common": 151,
+      "latest_start": "2013-07-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 151
+    },
+    {
+      "country": "br",
+      "horizon": "h9",
+      "n_specs": 120,
+      "common_start": "2013-09-01",
+      "common_end": "2025-12-01",
+      "n_common": 148,
+      "latest_start": "2013-09-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 148
+    },
+    {
+      "country": "br",
+      "horizon": "h10",
+      "n_specs": 120,
+      "common_start": "2013-11-01",
+      "common_end": "2025-11-01",
+      "n_common": 145,
+      "latest_start": "2013-11-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 145
+    },
+    {
+      "country": "br",
+      "horizon": "h11",
+      "n_specs": 120,
+      "common_start": "2014-01-01",
+      "common_end": "2025-10-01",
+      "n_common": 142,
+      "latest_start": "2014-01-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 142
+    },
+    {
+      "country": "br",
+      "horizon": "h12",
+      "n_specs": 120,
+      "common_start": "2014-03-01",
+      "common_end": "2025-09-01",
+      "n_common": 139,
+      "latest_start": "2014-03-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 139
+    },
+    {
+      "country": "ca",
+      "horizon": "h1",
+      "n_specs": 120,
+      "common_start": "1989-05-01",
+      "common_end": "2026-04-01",
+      "n_common": 444,
+      "latest_start": "1989-05-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 448
+    },
+    {
+      "country": "ca",
+      "horizon": "h2",
+      "n_specs": 120,
+      "common_start": "1989-07-01",
+      "common_end": "2026-04-01",
+      "n_common": 442,
+      "latest_start": "1989-07-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 445
+    },
+    {
+      "country": "ca",
+      "horizon": "h3",
+      "n_specs": 120,
+      "common_start": "1989-09-01",
+      "common_end": "2026-04-01",
+      "n_common": 440,
+      "latest_start": "1989-09-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 442
+    },
+    {
+      "country": "ca",
+      "horizon": "h4",
+      "n_specs": 120,
+      "common_start": "1989-11-01",
+      "common_end": "2026-04-01",
+      "n_common": 438,
+      "latest_start": "1989-11-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 439
+    },
+    {
+      "country": "ca",
+      "horizon": "h5",
+      "n_specs": 120,
+      "common_start": "1990-01-01",
+      "common_end": "2026-04-01",
+      "n_common": 436,
+      "latest_start": "1990-01-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 436
+    },
+    {
+      "country": "ca",
+      "horizon": "h6",
+      "n_specs": 120,
+      "common_start": "1990-03-01",
+      "common_end": "2026-03-01",
+      "n_common": 433,
+      "latest_start": "1990-03-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 433
+    },
+    {
+      "country": "ca",
+      "horizon": "h7",
+      "n_specs": 120,
+      "common_start": "1990-05-01",
+      "common_end": "2026-02-01",
+      "n_common": 430,
+      "latest_start": "1990-05-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 430
+    },
+    {
+      "country": "ca",
+      "horizon": "h8",
+      "n_specs": 120,
+      "common_start": "1990-07-01",
+      "common_end": "2026-01-01",
+      "n_common": 427,
+      "latest_start": "1990-07-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 427
+    },
+    {
+      "country": "ca",
+      "horizon": "h9",
+      "n_specs": 120,
+      "common_start": "1990-09-01",
+      "common_end": "2025-12-01",
+      "n_common": 424,
+      "latest_start": "1990-09-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 424
+    },
+    {
+      "country": "ca",
+      "horizon": "h10",
+      "n_specs": 120,
+      "common_start": "1990-11-01",
+      "common_end": "2025-11-01",
+      "n_common": 421,
+      "latest_start": "1990-11-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 421
+    },
+    {
+      "country": "ca",
+      "horizon": "h11",
+      "n_specs": 120,
+      "common_start": "1991-01-01",
+      "common_end": "2025-10-01",
+      "n_common": 418,
+      "latest_start": "1991-01-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 418
+    },
+    {
+      "country": "ca",
+      "horizon": "h12",
+      "n_specs": 120,
+      "common_start": "1991-03-01",
+      "common_end": "2025-09-01",
+      "n_common": 415,
+      "latest_start": "1991-03-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 415
+    },
+    {
+      "country": "cn",
+      "horizon": "h1",
+      "n_specs": 120,
+      "common_start": "2012-05-01",
+      "common_end": "2025-06-01",
+      "n_common": 158,
+      "latest_start": "2012-05-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 158
+    },
+    {
+      "country": "cn",
+      "horizon": "h2",
+      "n_specs": 120,
+      "common_start": "2012-07-01",
+      "common_end": "2025-06-01",
+      "n_common": 156,
+      "latest_start": "2012-07-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 156
+    },
+    {
+      "country": "cn",
+      "horizon": "h3",
+      "n_specs": 120,
+      "common_start": "2012-09-01",
+      "common_end": "2025-06-01",
+      "n_common": 154,
+      "latest_start": "2012-09-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 154
+    },
+    {
+      "country": "cn",
+      "horizon": "h4",
+      "n_specs": 120,
+      "common_start": "2012-11-01",
+      "common_end": "2025-06-01",
+      "n_common": 152,
+      "latest_start": "2012-11-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 152
+    },
+    {
+      "country": "cn",
+      "horizon": "h5",
+      "n_specs": 120,
+      "common_start": "2013-01-01",
+      "common_end": "2025-06-01",
+      "n_common": 150,
+      "latest_start": "2013-01-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 150
+    },
+    {
+      "country": "cn",
+      "horizon": "h6",
+      "n_specs": 120,
+      "common_start": "2013-03-01",
+      "common_end": "2025-06-01",
+      "n_common": 148,
+      "latest_start": "2013-03-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 148
+    },
+    {
+      "country": "cn",
+      "horizon": "h7",
+      "n_specs": 120,
+      "common_start": "2013-05-01",
+      "common_end": "2025-06-01",
+      "n_common": 146,
+      "latest_start": "2013-05-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 146
+    },
+    {
+      "country": "cn",
+      "horizon": "h8",
+      "n_specs": 120,
+      "common_start": "2013-07-01",
+      "common_end": "2025-06-01",
+      "n_common": 144,
+      "latest_start": "2013-07-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 144
+    },
+    {
+      "country": "cn",
+      "horizon": "h9",
+      "n_specs": 120,
+      "common_start": "2013-09-01",
+      "common_end": "2025-06-01",
+      "n_common": 142,
+      "latest_start": "2013-09-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 142
+    },
+    {
+      "country": "cn",
+      "horizon": "h10",
+      "n_specs": 120,
+      "common_start": "2013-11-01",
+      "common_end": "2025-06-01",
+      "n_common": 140,
+      "latest_start": "2013-11-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 140
+    },
+    {
+      "country": "cn",
+      "horizon": "h11",
+      "n_specs": 120,
+      "common_start": "2014-01-01",
+      "common_end": "2025-06-01",
+      "n_common": 138,
+      "latest_start": "2014-01-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 138
+    },
+    {
+      "country": "cn",
+      "horizon": "h12",
+      "n_specs": 120,
+      "common_start": "2014-03-01",
+      "common_end": "2025-06-01",
+      "n_common": 136,
+      "latest_start": "2014-03-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 136
+    },
+    {
+      "country": "dk",
+      "horizon": "h1",
+      "n_specs": 120,
+      "common_start": "2011-05-01",
+      "common_end": "2025-12-01",
+      "n_common": 176,
+      "latest_start": "2011-05-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 176
+    },
+    {
+      "country": "dk",
+      "horizon": "h2",
+      "n_specs": 120,
+      "common_start": "2011-07-01",
+      "common_end": "2025-12-01",
+      "n_common": 174,
+      "latest_start": "2011-07-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 174
+    },
+    {
+      "country": "dk",
+      "horizon": "h3",
+      "n_specs": 120,
+      "common_start": "2011-09-01",
+      "common_end": "2025-12-01",
+      "n_common": 172,
+      "latest_start": "2011-09-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 172
+    },
+    {
+      "country": "dk",
+      "horizon": "h4",
+      "n_specs": 120,
+      "common_start": "2011-11-01",
+      "common_end": "2025-12-01",
+      "n_common": 170,
+      "latest_start": "2011-11-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 170
+    },
+    {
+      "country": "dk",
+      "horizon": "h5",
+      "n_specs": 120,
+      "common_start": "2012-01-01",
+      "common_end": "2025-12-01",
+      "n_common": 168,
+      "latest_start": "2012-01-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 168
+    },
+    {
+      "country": "dk",
+      "horizon": "h6",
+      "n_specs": 120,
+      "common_start": "2012-03-01",
+      "common_end": "2025-12-01",
+      "n_common": 166,
+      "latest_start": "2012-03-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 166
+    },
+    {
+      "country": "dk",
+      "horizon": "h7",
+      "n_specs": 120,
+      "common_start": "2012-05-01",
+      "common_end": "2025-12-01",
+      "n_common": 164,
+      "latest_start": "2012-05-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 164
+    },
+    {
+      "country": "dk",
+      "horizon": "h8",
+      "n_specs": 120,
+      "common_start": "2012-07-01",
+      "common_end": "2025-12-01",
+      "n_common": 162,
+      "latest_start": "2012-07-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 162
+    },
+    {
+      "country": "dk",
+      "horizon": "h9",
+      "n_specs": 120,
+      "common_start": "2012-09-01",
+      "common_end": "2025-12-01",
+      "n_common": 160,
+      "latest_start": "2012-09-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 160
+    },
+    {
+      "country": "dk",
+      "horizon": "h10",
+      "n_specs": 120,
+      "common_start": "2012-11-01",
+      "common_end": "2025-11-01",
+      "n_common": 157,
+      "latest_start": "2012-11-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 157
+    },
+    {
+      "country": "dk",
+      "horizon": "h11",
+      "n_specs": 120,
+      "common_start": "2013-01-01",
+      "common_end": "2025-10-01",
+      "n_common": 154,
+      "latest_start": "2013-01-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 154
+    },
+    {
+      "country": "dk",
+      "horizon": "h12",
+      "n_specs": 120,
+      "common_start": "2013-03-01",
+      "common_end": "2025-09-01",
+      "n_common": 151,
+      "latest_start": "2013-03-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 151
+    },
+    {
+      "country": "fr",
+      "horizon": "h1",
+      "n_specs": 96,
+      "common_start": "1990-07-01",
+      "common_end": "1998-11-01",
+      "n_common": 101,
+      "latest_start": "1990-07-01",
+      "binding_spec": "dif|monetary_flexible_uip|earth",
+      "min_n_own": 101
+    },
+    {
+      "country": "fr",
+      "horizon": "h2",
+      "n_specs": 96,
+      "common_start": "1990-09-01",
+      "common_end": "1998-10-01",
+      "n_common": 98,
+      "latest_start": "1990-09-01",
+      "binding_spec": "dif|monetary_flexible_uip|earth",
+      "min_n_own": 98
+    },
+    {
+      "country": "fr",
+      "horizon": "h3",
+      "n_specs": 96,
+      "common_start": "1990-11-01",
+      "common_end": "1998-09-01",
+      "n_common": 95,
+      "latest_start": "1990-11-01",
+      "binding_spec": "dif|monetary_flexible_uip|earth",
+      "min_n_own": 95
+    },
+    {
+      "country": "fr",
+      "horizon": "h4",
+      "n_specs": 96,
+      "common_start": "1991-01-01",
+      "common_end": "1998-08-01",
+      "n_common": 92,
+      "latest_start": "1991-01-01",
+      "binding_spec": "dif|monetary_flexible_uip|earth",
+      "min_n_own": 92
+    },
+    {
+      "country": "fr",
+      "horizon": "h5",
+      "n_specs": 96,
+      "common_start": "1991-03-01",
+      "common_end": "1998-07-01",
+      "n_common": 89,
+      "latest_start": "1991-03-01",
+      "binding_spec": "dif|monetary_flexible_uip|earth",
+      "min_n_own": 89
+    },
+    {
+      "country": "fr",
+      "horizon": "h6",
+      "n_specs": 96,
+      "common_start": "1991-05-01",
+      "common_end": "1998-06-01",
+      "n_common": 86,
+      "latest_start": "1991-05-01",
+      "binding_spec": "dif|monetary_flexible_uip|earth",
+      "min_n_own": 86
+    },
+    {
+      "country": "fr",
+      "horizon": "h7",
+      "n_specs": 96,
+      "common_start": "1991-07-01",
+      "common_end": "1998-05-01",
+      "n_common": 83,
+      "latest_start": "1991-07-01",
+      "binding_spec": "dif|monetary_flexible_uip|earth",
+      "min_n_own": 83
+    },
+    {
+      "country": "fr",
+      "horizon": "h8",
+      "n_specs": 96,
+      "common_start": "1991-09-01",
+      "common_end": "1998-04-01",
+      "n_common": 80,
+      "latest_start": "1991-09-01",
+      "binding_spec": "dif|monetary_flexible_uip|earth",
+      "min_n_own": 80
+    },
+    {
+      "country": "fr",
+      "horizon": "h9",
+      "n_specs": 96,
+      "common_start": "1991-11-01",
+      "common_end": "1998-03-01",
+      "n_common": 77,
+      "latest_start": "1991-11-01",
+      "binding_spec": "dif|monetary_flexible_uip|earth",
+      "min_n_own": 77
+    },
+    {
+      "country": "fr",
+      "horizon": "h10",
+      "n_specs": 96,
+      "common_start": "1992-01-01",
+      "common_end": "1998-02-01",
+      "n_common": 74,
+      "latest_start": "1992-01-01",
+      "binding_spec": "dif|monetary_flexible_uip|earth",
+      "min_n_own": 74
+    },
+    {
+      "country": "fr",
+      "horizon": "h11",
+      "n_specs": 96,
+      "common_start": "1992-03-01",
+      "common_end": "1998-01-01",
+      "n_common": 71,
+      "latest_start": "1992-03-01",
+      "binding_spec": "dif|monetary_flexible_uip|earth",
+      "min_n_own": 71
+    },
+    {
+      "country": "fr",
+      "horizon": "h12",
+      "n_specs": 96,
+      "common_start": "1992-05-01",
+      "common_end": "1997-12-01",
+      "n_common": 68,
+      "latest_start": "1992-05-01",
+      "binding_spec": "dif|monetary_flexible_uip|earth",
+      "min_n_own": 68
+    },
+    {
+      "country": "gb",
+      "horizon": "h1",
+      "n_specs": 120,
+      "common_start": "2011-05-01",
+      "common_end": "2026-05-01",
+      "n_common": 181,
+      "latest_start": "2011-05-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 184
+    },
+    {
+      "country": "gb",
+      "horizon": "h2",
+      "n_specs": 120,
+      "common_start": "2011-07-01",
+      "common_end": "2026-05-01",
+      "n_common": 179,
+      "latest_start": "2011-07-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 181
+    },
+    {
+      "country": "gb",
+      "horizon": "h3",
+      "n_specs": 120,
+      "common_start": "2011-09-01",
+      "common_end": "2026-05-01",
+      "n_common": 177,
+      "latest_start": "2011-09-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 178
+    },
+    {
+      "country": "gb",
+      "horizon": "h4",
+      "n_specs": 120,
+      "common_start": "2011-11-01",
+      "common_end": "2026-05-01",
+      "n_common": 175,
+      "latest_start": "2011-11-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 175
+    },
+    {
+      "country": "gb",
+      "horizon": "h5",
+      "n_specs": 120,
+      "common_start": "2012-01-01",
+      "common_end": "2026-04-01",
+      "n_common": 172,
+      "latest_start": "2012-01-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 172
+    },
+    {
+      "country": "gb",
+      "horizon": "h6",
+      "n_specs": 120,
+      "common_start": "2012-03-01",
+      "common_end": "2026-03-01",
+      "n_common": 169,
+      "latest_start": "2012-03-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 169
+    },
+    {
+      "country": "gb",
+      "horizon": "h7",
+      "n_specs": 120,
+      "common_start": "2012-05-01",
+      "common_end": "2026-02-01",
+      "n_common": 166,
+      "latest_start": "2012-05-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 166
+    },
+    {
+      "country": "gb",
+      "horizon": "h8",
+      "n_specs": 120,
+      "common_start": "2012-07-01",
+      "common_end": "2026-01-01",
+      "n_common": 163,
+      "latest_start": "2012-07-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 163
+    },
+    {
+      "country": "gb",
+      "horizon": "h9",
+      "n_specs": 120,
+      "common_start": "2012-09-01",
+      "common_end": "2025-12-01",
+      "n_common": 160,
+      "latest_start": "2012-09-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 160
+    },
+    {
+      "country": "gb",
+      "horizon": "h10",
+      "n_specs": 120,
+      "common_start": "2012-11-01",
+      "common_end": "2025-11-01",
+      "n_common": 157,
+      "latest_start": "2012-11-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 157
+    },
+    {
+      "country": "gb",
+      "horizon": "h11",
+      "n_specs": 120,
+      "common_start": "2013-01-01",
+      "common_end": "2025-10-01",
+      "n_common": 154,
+      "latest_start": "2013-01-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 154
+    },
+    {
+      "country": "gb",
+      "horizon": "h12",
+      "n_specs": 120,
+      "common_start": "2013-03-01",
+      "common_end": "2025-09-01",
+      "n_common": 151,
+      "latest_start": "2013-03-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 151
+    },
+    {
+      "country": "id",
+      "horizon": "h1",
+      "n_specs": 96,
+      "common_start": "2018-07-01",
+      "common_end": "2026-05-01",
+      "n_common": 95,
+      "latest_start": "2018-07-01",
+      "binding_spec": "dif|monetary_flexible_uip|earth",
+      "min_n_own": 95
+    },
+    {
+      "country": "id",
+      "horizon": "h2",
+      "n_specs": 96,
+      "common_start": "2018-09-01",
+      "common_end": "2026-05-01",
+      "n_common": 93,
+      "latest_start": "2018-09-01",
+      "binding_spec": "dif|monetary_flexible_uip|earth",
+      "min_n_own": 93
+    },
+    {
+      "country": "id",
+      "horizon": "h3",
+      "n_specs": 96,
+      "common_start": "2018-11-01",
+      "common_end": "2026-05-01",
+      "n_common": 91,
+      "latest_start": "2018-11-01",
+      "binding_spec": "dif|monetary_flexible_uip|earth",
+      "min_n_own": 91
+    },
+    {
+      "country": "id",
+      "horizon": "h4",
+      "n_specs": 96,
+      "common_start": "2019-01-01",
+      "common_end": "2026-05-01",
+      "n_common": 89,
+      "latest_start": "2019-01-01",
+      "binding_spec": "dif|monetary_flexible_uip|earth",
+      "min_n_own": 89
+    },
+    {
+      "country": "id",
+      "horizon": "h5",
+      "n_specs": 96,
+      "common_start": "2019-03-01",
+      "common_end": "2026-04-01",
+      "n_common": 86,
+      "latest_start": "2019-03-01",
+      "binding_spec": "dif|monetary_flexible_uip|earth",
+      "min_n_own": 86
+    },
+    {
+      "country": "id",
+      "horizon": "h6",
+      "n_specs": 96,
+      "common_start": "2019-05-01",
+      "common_end": "2026-03-01",
+      "n_common": 83,
+      "latest_start": "2019-05-01",
+      "binding_spec": "dif|monetary_flexible_uip|earth",
+      "min_n_own": 83
+    },
+    {
+      "country": "id",
+      "horizon": "h7",
+      "n_specs": 96,
+      "common_start": "2019-07-01",
+      "common_end": "2026-02-01",
+      "n_common": 80,
+      "latest_start": "2019-07-01",
+      "binding_spec": "dif|monetary_flexible_uip|earth",
+      "min_n_own": 80
+    },
+    {
+      "country": "id",
+      "horizon": "h8",
+      "n_specs": 96,
+      "common_start": "2019-09-01",
+      "common_end": "2026-01-01",
+      "n_common": 77,
+      "latest_start": "2019-09-01",
+      "binding_spec": "dif|monetary_flexible_uip|earth",
+      "min_n_own": 77
+    },
+    {
+      "country": "id",
+      "horizon": "h9",
+      "n_specs": 96,
+      "common_start": "2019-11-01",
+      "common_end": "2025-12-01",
+      "n_common": 74,
+      "latest_start": "2019-11-01",
+      "binding_spec": "dif|monetary_flexible_uip|earth",
+      "min_n_own": 74
+    },
+    {
+      "country": "id",
+      "horizon": "h10",
+      "n_specs": 96,
+      "common_start": "2020-01-01",
+      "common_end": "2025-11-01",
+      "n_common": 71,
+      "latest_start": "2020-01-01",
+      "binding_spec": "dif|monetary_flexible_uip|earth",
+      "min_n_own": 71
+    },
+    {
+      "country": "id",
+      "horizon": "h11",
+      "n_specs": 96,
+      "common_start": "2020-03-01",
+      "common_end": "2025-10-01",
+      "n_common": 68,
+      "latest_start": "2020-03-01",
+      "binding_spec": "dif|monetary_flexible_uip|earth",
+      "min_n_own": 68
+    },
+    {
+      "country": "id",
+      "horizon": "h12",
+      "n_specs": 96,
+      "common_start": "2020-05-01",
+      "common_end": "2025-09-01",
+      "n_common": 65,
+      "latest_start": "2020-05-01",
+      "binding_spec": "dif|monetary_flexible_uip|earth",
+      "min_n_own": 65
+    },
+    {
+      "country": "in",
+      "horizon": "h1",
+      "n_specs": 96,
+      "common_start": "2014-10-01",
+      "common_end": "2026-05-01",
+      "n_common": 140,
+      "latest_start": "2014-10-01",
+      "binding_spec": "dif|monetary_flexible_uip|earth",
+      "min_n_own": 140
+    },
+    {
+      "country": "in",
+      "horizon": "h2",
+      "n_specs": 96,
+      "common_start": "2014-12-01",
+      "common_end": "2026-05-01",
+      "n_common": 138,
+      "latest_start": "2014-12-01",
+      "binding_spec": "dif|monetary_flexible_uip|earth",
+      "min_n_own": 138
+    },
+    {
+      "country": "in",
+      "horizon": "h3",
+      "n_specs": 96,
+      "common_start": "2015-02-01",
+      "common_end": "2026-05-01",
+      "n_common": 136,
+      "latest_start": "2015-02-01",
+      "binding_spec": "dif|monetary_flexible_uip|earth",
+      "min_n_own": 136
+    },
+    {
+      "country": "in",
+      "horizon": "h4",
+      "n_specs": 96,
+      "common_start": "2015-04-01",
+      "common_end": "2026-05-01",
+      "n_common": 134,
+      "latest_start": "2015-04-01",
+      "binding_spec": "dif|monetary_flexible_uip|earth",
+      "min_n_own": 134
+    },
+    {
+      "country": "in",
+      "horizon": "h5",
+      "n_specs": 96,
+      "common_start": "2015-06-01",
+      "common_end": "2026-04-01",
+      "n_common": 131,
+      "latest_start": "2015-06-01",
+      "binding_spec": "dif|monetary_flexible_uip|earth",
+      "min_n_own": 131
+    },
+    {
+      "country": "in",
+      "horizon": "h6",
+      "n_specs": 96,
+      "common_start": "2015-08-01",
+      "common_end": "2026-03-01",
+      "n_common": 128,
+      "latest_start": "2015-08-01",
+      "binding_spec": "dif|monetary_flexible_uip|earth",
+      "min_n_own": 128
+    },
+    {
+      "country": "in",
+      "horizon": "h7",
+      "n_specs": 96,
+      "common_start": "2015-10-01",
+      "common_end": "2026-02-01",
+      "n_common": 125,
+      "latest_start": "2015-10-01",
+      "binding_spec": "dif|monetary_flexible_uip|earth",
+      "min_n_own": 125
+    },
+    {
+      "country": "in",
+      "horizon": "h8",
+      "n_specs": 96,
+      "common_start": "2015-12-01",
+      "common_end": "2026-01-01",
+      "n_common": 122,
+      "latest_start": "2015-12-01",
+      "binding_spec": "dif|monetary_flexible_uip|earth",
+      "min_n_own": 122
+    },
+    {
+      "country": "in",
+      "horizon": "h9",
+      "n_specs": 96,
+      "common_start": "2016-02-01",
+      "common_end": "2025-12-01",
+      "n_common": 119,
+      "latest_start": "2016-02-01",
+      "binding_spec": "dif|monetary_flexible_uip|earth",
+      "min_n_own": 119
+    },
+    {
+      "country": "in",
+      "horizon": "h10",
+      "n_specs": 96,
+      "common_start": "2016-04-01",
+      "common_end": "2025-11-01",
+      "n_common": 116,
+      "latest_start": "2016-04-01",
+      "binding_spec": "dif|monetary_flexible_uip|earth",
+      "min_n_own": 116
+    },
+    {
+      "country": "in",
+      "horizon": "h11",
+      "n_specs": 96,
+      "common_start": "2016-06-01",
+      "common_end": "2025-10-01",
+      "n_common": 113,
+      "latest_start": "2016-06-01",
+      "binding_spec": "dif|monetary_flexible_uip|earth",
+      "min_n_own": 113
+    },
+    {
+      "country": "in",
+      "horizon": "h12",
+      "n_specs": 96,
+      "common_start": "2016-08-01",
+      "common_end": "2025-09-01",
+      "n_common": 110,
+      "latest_start": "2016-08-01",
+      "binding_spec": "dif|monetary_flexible_uip|earth",
+      "min_n_own": 110
+    },
+    {
+      "country": "jp",
+      "horizon": "h1",
+      "n_specs": 120,
+      "common_start": "2010-05-01",
+      "common_end": "2026-04-01",
+      "n_common": 192,
+      "latest_start": "2010-05-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 196
+    },
+    {
+      "country": "jp",
+      "horizon": "h2",
+      "n_specs": 120,
+      "common_start": "2010-07-01",
+      "common_end": "2026-04-01",
+      "n_common": 190,
+      "latest_start": "2010-07-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 193
+    },
+    {
+      "country": "jp",
+      "horizon": "h3",
+      "n_specs": 120,
+      "common_start": "2010-09-01",
+      "common_end": "2026-04-01",
+      "n_common": 188,
+      "latest_start": "2010-09-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 190
+    },
+    {
+      "country": "jp",
+      "horizon": "h4",
+      "n_specs": 120,
+      "common_start": "2010-11-01",
+      "common_end": "2026-04-01",
+      "n_common": 186,
+      "latest_start": "2010-11-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 187
+    },
+    {
+      "country": "jp",
+      "horizon": "h5",
+      "n_specs": 120,
+      "common_start": "2011-01-01",
+      "common_end": "2026-04-01",
+      "n_common": 184,
+      "latest_start": "2011-01-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 184
+    },
+    {
+      "country": "jp",
+      "horizon": "h6",
+      "n_specs": 120,
+      "common_start": "2011-03-01",
+      "common_end": "2026-03-01",
+      "n_common": 181,
+      "latest_start": "2011-03-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 181
+    },
+    {
+      "country": "jp",
+      "horizon": "h7",
+      "n_specs": 120,
+      "common_start": "2011-05-01",
+      "common_end": "2026-02-01",
+      "n_common": 178,
+      "latest_start": "2011-05-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 178
+    },
+    {
+      "country": "jp",
+      "horizon": "h8",
+      "n_specs": 120,
+      "common_start": "2011-07-01",
+      "common_end": "2026-01-01",
+      "n_common": 175,
+      "latest_start": "2011-07-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 175
+    },
+    {
+      "country": "jp",
+      "horizon": "h9",
+      "n_specs": 120,
+      "common_start": "2011-09-01",
+      "common_end": "2025-12-01",
+      "n_common": 172,
+      "latest_start": "2011-09-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 172
+    },
+    {
+      "country": "jp",
+      "horizon": "h10",
+      "n_specs": 120,
+      "common_start": "2011-11-01",
+      "common_end": "2025-11-01",
+      "n_common": 169,
+      "latest_start": "2011-11-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 169
+    },
+    {
+      "country": "jp",
+      "horizon": "h11",
+      "n_specs": 120,
+      "common_start": "2012-01-01",
+      "common_end": "2025-10-01",
+      "n_common": 166,
+      "latest_start": "2012-01-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 166
+    },
+    {
+      "country": "jp",
+      "horizon": "h12",
+      "n_specs": 120,
+      "common_start": "2012-03-01",
+      "common_end": "2025-09-01",
+      "n_common": 163,
+      "latest_start": "2012-03-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 163
+    },
+    {
+      "country": "ru",
+      "horizon": "h1",
+      "n_specs": 120,
+      "common_start": "2012-05-01",
+      "common_end": "2023-02-01",
+      "n_common": 130,
+      "latest_start": "2012-05-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 162
+    },
+    {
+      "country": "ru",
+      "horizon": "h2",
+      "n_specs": 120,
+      "common_start": "2012-07-01",
+      "common_end": "2023-02-01",
+      "n_common": 128,
+      "latest_start": "2012-07-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 160
+    },
+    {
+      "country": "ru",
+      "horizon": "h3",
+      "n_specs": 120,
+      "common_start": "2012-09-01",
+      "common_end": "2023-02-01",
+      "n_common": 126,
+      "latest_start": "2012-09-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 158
+    },
+    {
+      "country": "ru",
+      "horizon": "h4",
+      "n_specs": 120,
+      "common_start": "2012-11-01",
+      "common_end": "2023-02-01",
+      "n_common": 124,
+      "latest_start": "2012-11-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 156
+    },
+    {
+      "country": "ru",
+      "horizon": "h5",
+      "n_specs": 120,
+      "common_start": "2013-01-01",
+      "common_end": "2023-02-01",
+      "n_common": 122,
+      "latest_start": "2013-01-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 154
+    },
+    {
+      "country": "ru",
+      "horizon": "h6",
+      "n_specs": 120,
+      "common_start": "2013-03-01",
+      "common_end": "2023-02-01",
+      "n_common": 120,
+      "latest_start": "2013-03-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 152
+    },
+    {
+      "country": "ru",
+      "horizon": "h7",
+      "n_specs": 120,
+      "common_start": "2013-05-01",
+      "common_end": "2023-02-01",
+      "n_common": 118,
+      "latest_start": "2013-05-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 150
+    },
+    {
+      "country": "ru",
+      "horizon": "h8",
+      "n_specs": 120,
+      "common_start": "2013-07-01",
+      "common_end": "2023-02-01",
+      "n_common": 116,
+      "latest_start": "2013-07-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 148
+    },
+    {
+      "country": "ru",
+      "horizon": "h9",
+      "n_specs": 120,
+      "common_start": "2013-09-01",
+      "common_end": "2023-02-01",
+      "n_common": 114,
+      "latest_start": "2013-09-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 146
+    },
+    {
+      "country": "ru",
+      "horizon": "h10",
+      "n_specs": 120,
+      "common_start": "2013-11-01",
+      "common_end": "2023-02-01",
+      "n_common": 112,
+      "latest_start": "2013-11-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 143
+    },
+    {
+      "country": "ru",
+      "horizon": "h11",
+      "n_specs": 120,
+      "common_start": "2014-01-01",
+      "common_end": "2023-02-01",
+      "n_common": 110,
+      "latest_start": "2014-01-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 140
+    },
+    {
+      "country": "ru",
+      "horizon": "h12",
+      "n_specs": 120,
+      "common_start": "2014-03-01",
+      "common_end": "2023-02-01",
+      "n_common": 108,
+      "latest_start": "2014-03-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 137
+    },
+    {
+      "country": "se",
+      "horizon": "h1",
+      "n_specs": 120,
+      "common_start": "2009-05-01",
+      "common_end": "2025-12-01",
+      "n_common": 200,
+      "latest_start": "2009-05-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 200
+    },
+    {
+      "country": "se",
+      "horizon": "h2",
+      "n_specs": 120,
+      "common_start": "2009-07-01",
+      "common_end": "2025-12-01",
+      "n_common": 198,
+      "latest_start": "2009-07-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 198
+    },
+    {
+      "country": "se",
+      "horizon": "h3",
+      "n_specs": 120,
+      "common_start": "2009-09-01",
+      "common_end": "2025-12-01",
+      "n_common": 196,
+      "latest_start": "2009-09-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 196
+    },
+    {
+      "country": "se",
+      "horizon": "h4",
+      "n_specs": 120,
+      "common_start": "2009-11-01",
+      "common_end": "2025-12-01",
+      "n_common": 194,
+      "latest_start": "2009-11-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 194
+    },
+    {
+      "country": "se",
+      "horizon": "h5",
+      "n_specs": 120,
+      "common_start": "2010-01-01",
+      "common_end": "2025-12-01",
+      "n_common": 192,
+      "latest_start": "2010-01-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 192
+    },
+    {
+      "country": "se",
+      "horizon": "h6",
+      "n_specs": 120,
+      "common_start": "2010-03-01",
+      "common_end": "2025-12-01",
+      "n_common": 190,
+      "latest_start": "2010-03-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 190
+    },
+    {
+      "country": "se",
+      "horizon": "h7",
+      "n_specs": 120,
+      "common_start": "2010-05-01",
+      "common_end": "2025-12-01",
+      "n_common": 188,
+      "latest_start": "2010-05-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 188
+    },
+    {
+      "country": "se",
+      "horizon": "h8",
+      "n_specs": 120,
+      "common_start": "2010-07-01",
+      "common_end": "2025-12-01",
+      "n_common": 186,
+      "latest_start": "2010-07-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 186
+    },
+    {
+      "country": "se",
+      "horizon": "h9",
+      "n_specs": 120,
+      "common_start": "2010-09-01",
+      "common_end": "2025-12-01",
+      "n_common": 184,
+      "latest_start": "2010-09-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 184
+    },
+    {
+      "country": "se",
+      "horizon": "h10",
+      "n_specs": 120,
+      "common_start": "2010-11-01",
+      "common_end": "2025-11-01",
+      "n_common": 181,
+      "latest_start": "2010-11-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 181
+    },
+    {
+      "country": "se",
+      "horizon": "h11",
+      "n_specs": 120,
+      "common_start": "2011-01-01",
+      "common_end": "2025-10-01",
+      "n_common": 178,
+      "latest_start": "2011-01-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 178
+    },
+    {
+      "country": "se",
+      "horizon": "h12",
+      "n_specs": 120,
+      "common_start": "2011-03-01",
+      "common_end": "2025-09-01",
+      "n_common": 175,
+      "latest_start": "2011-03-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 175
+    },
+    {
+      "country": "za",
+      "horizon": "h1",
+      "n_specs": 120,
+      "common_start": "2012-05-01",
+      "common_end": "2026-05-01",
+      "n_common": 169,
+      "latest_start": "2012-05-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 170
+    },
+    {
+      "country": "za",
+      "horizon": "h2",
+      "n_specs": 120,
+      "common_start": "2012-07-01",
+      "common_end": "2026-05-01",
+      "n_common": 167,
+      "latest_start": "2012-07-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 168
+    },
+    {
+      "country": "za",
+      "horizon": "h3",
+      "n_specs": 120,
+      "common_start": "2012-09-01",
+      "common_end": "2026-05-01",
+      "n_common": 165,
+      "latest_start": "2012-09-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 166
+    },
+    {
+      "country": "za",
+      "horizon": "h4",
+      "n_specs": 120,
+      "common_start": "2012-11-01",
+      "common_end": "2026-05-01",
+      "n_common": 163,
+      "latest_start": "2012-11-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 163
+    },
+    {
+      "country": "za",
+      "horizon": "h5",
+      "n_specs": 120,
+      "common_start": "2013-01-01",
+      "common_end": "2026-04-01",
+      "n_common": 160,
+      "latest_start": "2013-01-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 160
+    },
+    {
+      "country": "za",
+      "horizon": "h6",
+      "n_specs": 120,
+      "common_start": "2013-03-01",
+      "common_end": "2026-03-01",
+      "n_common": 157,
+      "latest_start": "2013-03-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 157
+    },
+    {
+      "country": "za",
+      "horizon": "h7",
+      "n_specs": 120,
+      "common_start": "2013-05-01",
+      "common_end": "2026-02-01",
+      "n_common": 154,
+      "latest_start": "2013-05-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 154
+    },
+    {
+      "country": "za",
+      "horizon": "h8",
+      "n_specs": 120,
+      "common_start": "2013-07-01",
+      "common_end": "2026-01-01",
+      "n_common": 151,
+      "latest_start": "2013-07-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 151
+    },
+    {
+      "country": "za",
+      "horizon": "h9",
+      "n_specs": 120,
+      "common_start": "2013-09-01",
+      "common_end": "2025-12-01",
+      "n_common": 148,
+      "latest_start": "2013-09-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 148
+    },
+    {
+      "country": "za",
+      "horizon": "h10",
+      "n_specs": 120,
+      "common_start": "2013-11-01",
+      "common_end": "2025-11-01",
+      "n_common": 145,
+      "latest_start": "2013-11-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 145
+    },
+    {
+      "country": "za",
+      "horizon": "h11",
+      "n_specs": 120,
+      "common_start": "2014-01-01",
+      "common_end": "2025-10-01",
+      "n_common": 142,
+      "latest_start": "2014-01-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 142
+    },
+    {
+      "country": "za",
+      "horizon": "h12",
+      "n_specs": 120,
+      "common_start": "2014-03-01",
+      "common_end": "2025-09-01",
+      "n_common": 139,
+      "latest_start": "2014-03-01",
+      "binding_spec": "dif|taylor|earth",
+      "min_n_own": 139
+    }
+  ],
+  "mcs_rw": [
+    {
+      "country": "br",
+      "horizon": "h1",
+      "rw_mcs_p_value": 0.9964,
+      "rw_in_mcs": true,
+      "eval_start": "2012-05-01",
+      "eval_end": "2026-05-01",
+      "n_obs": 169
+    },
+    {
+      "country": "br",
+      "horizon": "h2",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "2012-07-01",
+      "eval_end": "2026-05-01",
+      "n_obs": 167
+    },
+    {
+      "country": "br",
+      "horizon": "h3",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "2012-09-01",
+      "eval_end": "2026-05-01",
+      "n_obs": 165
+    },
+    {
+      "country": "br",
+      "horizon": "h4",
+      "rw_mcs_p_value": 0.9644,
+      "rw_in_mcs": true,
+      "eval_start": "2012-11-01",
+      "eval_end": "2026-05-01",
+      "n_obs": 163
+    },
+    {
+      "country": "br",
+      "horizon": "h5",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "2013-01-01",
+      "eval_end": "2026-04-01",
+      "n_obs": 160
+    },
+    {
+      "country": "br",
+      "horizon": "h6",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "2013-03-01",
+      "eval_end": "2026-03-01",
+      "n_obs": 157
+    },
+    {
+      "country": "br",
+      "horizon": "h7",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "2013-05-01",
+      "eval_end": "2026-02-01",
+      "n_obs": 154
+    },
+    {
+      "country": "br",
+      "horizon": "h8",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "2013-07-01",
+      "eval_end": "2026-01-01",
+      "n_obs": 151
+    },
+    {
+      "country": "br",
+      "horizon": "h9",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "2013-09-01",
+      "eval_end": "2025-12-01",
+      "n_obs": 148
+    },
+    {
+      "country": "br",
+      "horizon": "h10",
+      "rw_mcs_p_value": 0.8836,
+      "rw_in_mcs": true,
+      "eval_start": "2013-11-01",
+      "eval_end": "2025-11-01",
+      "n_obs": 145
+    },
+    {
+      "country": "br",
+      "horizon": "h11",
+      "rw_mcs_p_value": 0.9928,
+      "rw_in_mcs": true,
+      "eval_start": "2014-01-01",
+      "eval_end": "2025-10-01",
+      "n_obs": 142
+    },
+    {
+      "country": "br",
+      "horizon": "h12",
+      "rw_mcs_p_value": 0.9924,
+      "rw_in_mcs": true,
+      "eval_start": "2014-03-01",
+      "eval_end": "2025-09-01",
+      "n_obs": 139
+    },
+    {
+      "country": "ca",
+      "horizon": "h1",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "1989-05-01",
+      "eval_end": "2026-04-01",
+      "n_obs": 444
+    },
+    {
+      "country": "ca",
+      "horizon": "h2",
+      "rw_mcs_p_value": 0.9984,
+      "rw_in_mcs": true,
+      "eval_start": "1989-07-01",
+      "eval_end": "2026-04-01",
+      "n_obs": 442
+    },
+    {
+      "country": "ca",
+      "horizon": "h3",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "1989-09-01",
+      "eval_end": "2026-04-01",
+      "n_obs": 440
+    },
+    {
+      "country": "ca",
+      "horizon": "h4",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "1989-11-01",
+      "eval_end": "2026-04-01",
+      "n_obs": 438
+    },
+    {
+      "country": "ca",
+      "horizon": "h5",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "1990-01-01",
+      "eval_end": "2026-04-01",
+      "n_obs": 436
+    },
+    {
+      "country": "ca",
+      "horizon": "h6",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "1990-03-01",
+      "eval_end": "2026-03-01",
+      "n_obs": 433
+    },
+    {
+      "country": "ca",
+      "horizon": "h7",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "1990-05-01",
+      "eval_end": "2026-02-01",
+      "n_obs": 430
+    },
+    {
+      "country": "ca",
+      "horizon": "h8",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "1990-07-01",
+      "eval_end": "2026-01-01",
+      "n_obs": 427
+    },
+    {
+      "country": "ca",
+      "horizon": "h9",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "1990-09-01",
+      "eval_end": "2025-12-01",
+      "n_obs": 424
+    },
+    {
+      "country": "ca",
+      "horizon": "h10",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "1990-11-01",
+      "eval_end": "2025-11-01",
+      "n_obs": 421
+    },
+    {
+      "country": "ca",
+      "horizon": "h11",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "1991-01-01",
+      "eval_end": "2025-10-01",
+      "n_obs": 418
+    },
+    {
+      "country": "ca",
+      "horizon": "h12",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "1991-03-01",
+      "eval_end": "2025-09-01",
+      "n_obs": 415
+    },
+    {
+      "country": "cn",
+      "horizon": "h1",
+      "rw_mcs_p_value": 0.998,
+      "rw_in_mcs": true,
+      "eval_start": "2012-05-01",
+      "eval_end": "2025-06-01",
+      "n_obs": 158
+    },
+    {
+      "country": "cn",
+      "horizon": "h2",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "2012-07-01",
+      "eval_end": "2025-06-01",
+      "n_obs": 156
+    },
+    {
+      "country": "cn",
+      "horizon": "h3",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "2012-09-01",
+      "eval_end": "2025-06-01",
+      "n_obs": 154
+    },
+    {
+      "country": "cn",
+      "horizon": "h4",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "2012-11-01",
+      "eval_end": "2025-06-01",
+      "n_obs": 152
+    },
+    {
+      "country": "cn",
+      "horizon": "h5",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "2013-01-01",
+      "eval_end": "2025-06-01",
+      "n_obs": 150
+    },
+    {
+      "country": "cn",
+      "horizon": "h6",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "2013-03-01",
+      "eval_end": "2025-06-01",
+      "n_obs": 148
+    },
+    {
+      "country": "cn",
+      "horizon": "h7",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "2013-05-01",
+      "eval_end": "2025-06-01",
+      "n_obs": 146
+    },
+    {
+      "country": "cn",
+      "horizon": "h8",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "2013-07-01",
+      "eval_end": "2025-06-01",
+      "n_obs": 144
+    },
+    {
+      "country": "cn",
+      "horizon": "h9",
+      "rw_mcs_p_value": 0.9488,
+      "rw_in_mcs": true,
+      "eval_start": "2013-09-01",
+      "eval_end": "2025-06-01",
+      "n_obs": 142
+    },
+    {
+      "country": "cn",
+      "horizon": "h10",
+      "rw_mcs_p_value": 0.9826,
+      "rw_in_mcs": true,
+      "eval_start": "2013-11-01",
+      "eval_end": "2025-06-01",
+      "n_obs": 140
+    },
+    {
+      "country": "cn",
+      "horizon": "h11",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "2014-01-01",
+      "eval_end": "2025-06-01",
+      "n_obs": 138
+    },
+    {
+      "country": "cn",
+      "horizon": "h12",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "2014-03-01",
+      "eval_end": "2025-06-01",
+      "n_obs": 136
+    },
+    {
+      "country": "dk",
+      "horizon": "h1",
+      "rw_mcs_p_value": 0.9884,
+      "rw_in_mcs": true,
+      "eval_start": "2011-05-01",
+      "eval_end": "2025-12-01",
+      "n_obs": 176
+    },
+    {
+      "country": "dk",
+      "horizon": "h2",
+      "rw_mcs_p_value": 0.9992,
+      "rw_in_mcs": true,
+      "eval_start": "2011-07-01",
+      "eval_end": "2025-12-01",
+      "n_obs": 174
+    },
+    {
+      "country": "dk",
+      "horizon": "h3",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "2011-09-01",
+      "eval_end": "2025-12-01",
+      "n_obs": 172
+    },
+    {
+      "country": "dk",
+      "horizon": "h4",
+      "rw_mcs_p_value": 0.999,
+      "rw_in_mcs": true,
+      "eval_start": "2011-11-01",
+      "eval_end": "2025-12-01",
+      "n_obs": 170
+    },
+    {
+      "country": "dk",
+      "horizon": "h5",
+      "rw_mcs_p_value": 0.9888,
+      "rw_in_mcs": true,
+      "eval_start": "2012-01-01",
+      "eval_end": "2025-12-01",
+      "n_obs": 168
+    },
+    {
+      "country": "dk",
+      "horizon": "h6",
+      "rw_mcs_p_value": 0.9978,
+      "rw_in_mcs": true,
+      "eval_start": "2012-03-01",
+      "eval_end": "2025-12-01",
+      "n_obs": 166
+    },
+    {
+      "country": "dk",
+      "horizon": "h7",
+      "rw_mcs_p_value": 0.9672,
+      "rw_in_mcs": true,
+      "eval_start": "2012-05-01",
+      "eval_end": "2025-12-01",
+      "n_obs": 164
+    },
+    {
+      "country": "dk",
+      "horizon": "h8",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "2012-07-01",
+      "eval_end": "2025-12-01",
+      "n_obs": 162
+    },
+    {
+      "country": "dk",
+      "horizon": "h9",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "2012-09-01",
+      "eval_end": "2025-12-01",
+      "n_obs": 160
+    },
+    {
+      "country": "dk",
+      "horizon": "h10",
+      "rw_mcs_p_value": 0.997,
+      "rw_in_mcs": true,
+      "eval_start": "2012-11-01",
+      "eval_end": "2025-11-01",
+      "n_obs": 157
+    },
+    {
+      "country": "dk",
+      "horizon": "h11",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "2013-01-01",
+      "eval_end": "2025-10-01",
+      "n_obs": 154
+    },
+    {
+      "country": "dk",
+      "horizon": "h12",
+      "rw_mcs_p_value": 0.9934,
+      "rw_in_mcs": true,
+      "eval_start": "2013-03-01",
+      "eval_end": "2025-09-01",
+      "n_obs": 151
+    },
+    {
+      "country": "fr",
+      "horizon": "h1",
+      "rw_mcs_p_value": 0.9852,
+      "rw_in_mcs": true,
+      "eval_start": "1990-07-01",
+      "eval_end": "1998-11-01",
+      "n_obs": 101
+    },
+    {
+      "country": "fr",
+      "horizon": "h2",
+      "rw_mcs_p_value": 0.9552,
+      "rw_in_mcs": true,
+      "eval_start": "1990-09-01",
+      "eval_end": "1998-10-01",
+      "n_obs": 98
+    },
+    {
+      "country": "fr",
+      "horizon": "h3",
+      "rw_mcs_p_value": 0.9636,
+      "rw_in_mcs": true,
+      "eval_start": "1990-11-01",
+      "eval_end": "1998-09-01",
+      "n_obs": 95
+    },
+    {
+      "country": "fr",
+      "horizon": "h4",
+      "rw_mcs_p_value": 0.7896,
+      "rw_in_mcs": true,
+      "eval_start": "1991-01-01",
+      "eval_end": "1998-08-01",
+      "n_obs": 92
+    },
+    {
+      "country": "fr",
+      "horizon": "h5",
+      "rw_mcs_p_value": 0.9908,
+      "rw_in_mcs": true,
+      "eval_start": "1991-03-01",
+      "eval_end": "1998-07-01",
+      "n_obs": 89
+    },
+    {
+      "country": "fr",
+      "horizon": "h6",
+      "rw_mcs_p_value": 0.9398,
+      "rw_in_mcs": true,
+      "eval_start": "1991-05-01",
+      "eval_end": "1998-06-01",
+      "n_obs": 86
+    },
+    {
+      "country": "fr",
+      "horizon": "h7",
+      "rw_mcs_p_value": 0.9856,
+      "rw_in_mcs": true,
+      "eval_start": "1991-07-01",
+      "eval_end": "1998-05-01",
+      "n_obs": 83
+    },
+    {
+      "country": "fr",
+      "horizon": "h8",
+      "rw_mcs_p_value": 0.8854,
+      "rw_in_mcs": true,
+      "eval_start": "1991-09-01",
+      "eval_end": "1998-04-01",
+      "n_obs": 80
+    },
+    {
+      "country": "fr",
+      "horizon": "h9",
+      "rw_mcs_p_value": 0.9636,
+      "rw_in_mcs": true,
+      "eval_start": "1991-11-01",
+      "eval_end": "1998-03-01",
+      "n_obs": 77
+    },
+    {
+      "country": "fr",
+      "horizon": "h10",
+      "rw_mcs_p_value": 0.9758,
+      "rw_in_mcs": true,
+      "eval_start": "1992-01-01",
+      "eval_end": "1998-02-01",
+      "n_obs": 74
+    },
+    {
+      "country": "fr",
+      "horizon": "h11",
+      "rw_mcs_p_value": 0.9576,
+      "rw_in_mcs": true,
+      "eval_start": "1992-03-01",
+      "eval_end": "1998-01-01",
+      "n_obs": 71
+    },
+    {
+      "country": "fr",
+      "horizon": "h12",
+      "rw_mcs_p_value": 0.2504,
+      "rw_in_mcs": true,
+      "eval_start": "1992-05-01",
+      "eval_end": "1997-12-01",
+      "n_obs": 68
+    },
+    {
+      "country": "gb",
+      "horizon": "h1",
+      "rw_mcs_p_value": 0.982,
+      "rw_in_mcs": true,
+      "eval_start": "2011-05-01",
+      "eval_end": "2026-05-01",
+      "n_obs": 181
+    },
+    {
+      "country": "gb",
+      "horizon": "h2",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "2011-07-01",
+      "eval_end": "2026-05-01",
+      "n_obs": 179
+    },
+    {
+      "country": "gb",
+      "horizon": "h3",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "2011-09-01",
+      "eval_end": "2026-05-01",
+      "n_obs": 177
+    },
+    {
+      "country": "gb",
+      "horizon": "h4",
+      "rw_mcs_p_value": 0.9412,
+      "rw_in_mcs": true,
+      "eval_start": "2011-11-01",
+      "eval_end": "2026-05-01",
+      "n_obs": 175
+    },
+    {
+      "country": "gb",
+      "horizon": "h5",
+      "rw_mcs_p_value": 0.9796,
+      "rw_in_mcs": true,
+      "eval_start": "2012-01-01",
+      "eval_end": "2026-04-01",
+      "n_obs": 172
+    },
+    {
+      "country": "gb",
+      "horizon": "h6",
+      "rw_mcs_p_value": 0.9962,
+      "rw_in_mcs": true,
+      "eval_start": "2012-03-01",
+      "eval_end": "2026-03-01",
+      "n_obs": 169
+    },
+    {
+      "country": "gb",
+      "horizon": "h7",
+      "rw_mcs_p_value": 0.9974,
+      "rw_in_mcs": true,
+      "eval_start": "2012-05-01",
+      "eval_end": "2026-02-01",
+      "n_obs": 166
+    },
+    {
+      "country": "gb",
+      "horizon": "h8",
+      "rw_mcs_p_value": 0.9998,
+      "rw_in_mcs": true,
+      "eval_start": "2012-07-01",
+      "eval_end": "2026-01-01",
+      "n_obs": 163
+    },
+    {
+      "country": "gb",
+      "horizon": "h9",
+      "rw_mcs_p_value": 0.9986,
+      "rw_in_mcs": true,
+      "eval_start": "2012-09-01",
+      "eval_end": "2025-12-01",
+      "n_obs": 160
+    },
+    {
+      "country": "gb",
+      "horizon": "h10",
+      "rw_mcs_p_value": 0.9994,
+      "rw_in_mcs": true,
+      "eval_start": "2012-11-01",
+      "eval_end": "2025-11-01",
+      "n_obs": 157
+    },
+    {
+      "country": "gb",
+      "horizon": "h11",
+      "rw_mcs_p_value": 0.9998,
+      "rw_in_mcs": true,
+      "eval_start": "2013-01-01",
+      "eval_end": "2025-10-01",
+      "n_obs": 154
+    },
+    {
+      "country": "gb",
+      "horizon": "h12",
+      "rw_mcs_p_value": 0.9936,
+      "rw_in_mcs": true,
+      "eval_start": "2013-03-01",
+      "eval_end": "2025-09-01",
+      "n_obs": 151
+    },
+    {
+      "country": "id",
+      "horizon": "h1",
+      "rw_mcs_p_value": 0.9992,
+      "rw_in_mcs": true,
+      "eval_start": "2018-07-01",
+      "eval_end": "2026-05-01",
+      "n_obs": 95
+    },
+    {
+      "country": "id",
+      "horizon": "h2",
+      "rw_mcs_p_value": 0.9778,
+      "rw_in_mcs": true,
+      "eval_start": "2018-09-01",
+      "eval_end": "2026-05-01",
+      "n_obs": 93
+    },
+    {
+      "country": "id",
+      "horizon": "h3",
+      "rw_mcs_p_value": 0.8982,
+      "rw_in_mcs": true,
+      "eval_start": "2018-11-01",
+      "eval_end": "2026-05-01",
+      "n_obs": 91
+    },
+    {
+      "country": "id",
+      "horizon": "h4",
+      "rw_mcs_p_value": 0.3772,
+      "rw_in_mcs": true,
+      "eval_start": "2019-01-01",
+      "eval_end": "2026-05-01",
+      "n_obs": 89
+    },
+    {
+      "country": "id",
+      "horizon": "h5",
+      "rw_mcs_p_value": 0.2228,
+      "rw_in_mcs": true,
+      "eval_start": "2019-03-01",
+      "eval_end": "2026-04-01",
+      "n_obs": 86
+    },
+    {
+      "country": "id",
+      "horizon": "h6",
+      "rw_mcs_p_value": 0.1586,
+      "rw_in_mcs": true,
+      "eval_start": "2019-05-01",
+      "eval_end": "2026-03-01",
+      "n_obs": 83
+    },
+    {
+      "country": "id",
+      "horizon": "h7",
+      "rw_mcs_p_value": 0.2014,
+      "rw_in_mcs": true,
+      "eval_start": "2019-07-01",
+      "eval_end": "2026-02-01",
+      "n_obs": 80
+    },
+    {
+      "country": "id",
+      "horizon": "h8",
+      "rw_mcs_p_value": 0.1228,
+      "rw_in_mcs": true,
+      "eval_start": "2019-09-01",
+      "eval_end": "2026-01-01",
+      "n_obs": 77
+    },
+    {
+      "country": "id",
+      "horizon": "h9",
+      "rw_mcs_p_value": 0.1584,
+      "rw_in_mcs": true,
+      "eval_start": "2019-11-01",
+      "eval_end": "2025-12-01",
+      "n_obs": 74
+    },
+    {
+      "country": "id",
+      "horizon": "h10",
+      "rw_mcs_p_value": 0.2104,
+      "rw_in_mcs": true,
+      "eval_start": "2020-01-01",
+      "eval_end": "2025-11-01",
+      "n_obs": 71
+    },
+    {
+      "country": "id",
+      "horizon": "h11",
+      "rw_mcs_p_value": 0.0626,
+      "rw_in_mcs": false,
+      "eval_start": "2020-03-01",
+      "eval_end": "2025-10-01",
+      "n_obs": 68
+    },
+    {
+      "country": "id",
+      "horizon": "h12",
+      "rw_mcs_p_value": 0.035,
+      "rw_in_mcs": false,
+      "eval_start": "2020-05-01",
+      "eval_end": "2025-09-01",
+      "n_obs": 65
+    },
+    {
+      "country": "in",
+      "horizon": "h1",
+      "rw_mcs_p_value": 0.6652,
+      "rw_in_mcs": true,
+      "eval_start": "2014-10-01",
+      "eval_end": "2026-05-01",
+      "n_obs": 140
+    },
+    {
+      "country": "in",
+      "horizon": "h2",
+      "rw_mcs_p_value": 0.4162,
+      "rw_in_mcs": true,
+      "eval_start": "2014-12-01",
+      "eval_end": "2026-05-01",
+      "n_obs": 138
+    },
+    {
+      "country": "in",
+      "horizon": "h3",
+      "rw_mcs_p_value": 0.4132,
+      "rw_in_mcs": true,
+      "eval_start": "2015-02-01",
+      "eval_end": "2026-05-01",
+      "n_obs": 136
+    },
+    {
+      "country": "in",
+      "horizon": "h4",
+      "rw_mcs_p_value": 0.5508,
+      "rw_in_mcs": true,
+      "eval_start": "2015-04-01",
+      "eval_end": "2026-05-01",
+      "n_obs": 134
+    },
+    {
+      "country": "in",
+      "horizon": "h5",
+      "rw_mcs_p_value": 0.449,
+      "rw_in_mcs": true,
+      "eval_start": "2015-06-01",
+      "eval_end": "2026-04-01",
+      "n_obs": 131
+    },
+    {
+      "country": "in",
+      "horizon": "h6",
+      "rw_mcs_p_value": 0.5934,
+      "rw_in_mcs": true,
+      "eval_start": "2015-08-01",
+      "eval_end": "2026-03-01",
+      "n_obs": 128
+    },
+    {
+      "country": "in",
+      "horizon": "h7",
+      "rw_mcs_p_value": 0.6072,
+      "rw_in_mcs": true,
+      "eval_start": "2015-10-01",
+      "eval_end": "2026-02-01",
+      "n_obs": 125
+    },
+    {
+      "country": "in",
+      "horizon": "h8",
+      "rw_mcs_p_value": 0.51,
+      "rw_in_mcs": true,
+      "eval_start": "2015-12-01",
+      "eval_end": "2026-01-01",
+      "n_obs": 122
+    },
+    {
+      "country": "in",
+      "horizon": "h9",
+      "rw_mcs_p_value": 0.392,
+      "rw_in_mcs": true,
+      "eval_start": "2016-02-01",
+      "eval_end": "2025-12-01",
+      "n_obs": 119
+    },
+    {
+      "country": "in",
+      "horizon": "h10",
+      "rw_mcs_p_value": 0.3632,
+      "rw_in_mcs": true,
+      "eval_start": "2016-04-01",
+      "eval_end": "2025-11-01",
+      "n_obs": 116
+    },
+    {
+      "country": "in",
+      "horizon": "h11",
+      "rw_mcs_p_value": 0.2644,
+      "rw_in_mcs": true,
+      "eval_start": "2016-06-01",
+      "eval_end": "2025-10-01",
+      "n_obs": 113
+    },
+    {
+      "country": "in",
+      "horizon": "h12",
+      "rw_mcs_p_value": 0.1186,
+      "rw_in_mcs": true,
+      "eval_start": "2016-08-01",
+      "eval_end": "2025-09-01",
+      "n_obs": 110
+    },
+    {
+      "country": "jp",
+      "horizon": "h1",
+      "rw_mcs_p_value": 0.9988,
+      "rw_in_mcs": true,
+      "eval_start": "2010-05-01",
+      "eval_end": "2026-04-01",
+      "n_obs": 192
+    },
+    {
+      "country": "jp",
+      "horizon": "h2",
+      "rw_mcs_p_value": 0.9994,
+      "rw_in_mcs": true,
+      "eval_start": "2010-07-01",
+      "eval_end": "2026-04-01",
+      "n_obs": 190
+    },
+    {
+      "country": "jp",
+      "horizon": "h3",
+      "rw_mcs_p_value": 0.9984,
+      "rw_in_mcs": true,
+      "eval_start": "2010-09-01",
+      "eval_end": "2026-04-01",
+      "n_obs": 188
+    },
+    {
+      "country": "jp",
+      "horizon": "h4",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "2010-11-01",
+      "eval_end": "2026-04-01",
+      "n_obs": 186
+    },
+    {
+      "country": "jp",
+      "horizon": "h5",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "2011-01-01",
+      "eval_end": "2026-04-01",
+      "n_obs": 184
+    },
+    {
+      "country": "jp",
+      "horizon": "h6",
+      "rw_mcs_p_value": 0.9942,
+      "rw_in_mcs": true,
+      "eval_start": "2011-03-01",
+      "eval_end": "2026-03-01",
+      "n_obs": 181
+    },
+    {
+      "country": "jp",
+      "horizon": "h7",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "2011-05-01",
+      "eval_end": "2026-02-01",
+      "n_obs": 178
+    },
+    {
+      "country": "jp",
+      "horizon": "h8",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "2011-07-01",
+      "eval_end": "2026-01-01",
+      "n_obs": 175
+    },
+    {
+      "country": "jp",
+      "horizon": "h9",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "2011-09-01",
+      "eval_end": "2025-12-01",
+      "n_obs": 172
+    },
+    {
+      "country": "jp",
+      "horizon": "h10",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "2011-11-01",
+      "eval_end": "2025-11-01",
+      "n_obs": 169
+    },
+    {
+      "country": "jp",
+      "horizon": "h11",
+      "rw_mcs_p_value": 0.8264,
+      "rw_in_mcs": true,
+      "eval_start": "2012-01-01",
+      "eval_end": "2025-10-01",
+      "n_obs": 166
+    },
+    {
+      "country": "jp",
+      "horizon": "h12",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "2012-03-01",
+      "eval_end": "2025-09-01",
+      "n_obs": 163
+    },
+    {
+      "country": "ru",
+      "horizon": "h1",
+      "rw_mcs_p_value": 0.647,
+      "rw_in_mcs": true,
+      "eval_start": "2012-05-01",
+      "eval_end": "2023-02-01",
+      "n_obs": 130
+    },
+    {
+      "country": "ru",
+      "horizon": "h2",
+      "rw_mcs_p_value": 0.9732,
+      "rw_in_mcs": true,
+      "eval_start": "2012-07-01",
+      "eval_end": "2023-02-01",
+      "n_obs": 128
+    },
+    {
+      "country": "ru",
+      "horizon": "h3",
+      "rw_mcs_p_value": 0.9114,
+      "rw_in_mcs": true,
+      "eval_start": "2012-09-01",
+      "eval_end": "2023-02-01",
+      "n_obs": 126
+    },
+    {
+      "country": "ru",
+      "horizon": "h4",
+      "rw_mcs_p_value": 0.8682,
+      "rw_in_mcs": true,
+      "eval_start": "2012-11-01",
+      "eval_end": "2023-02-01",
+      "n_obs": 124
+    },
+    {
+      "country": "ru",
+      "horizon": "h5",
+      "rw_mcs_p_value": 0.9188,
+      "rw_in_mcs": true,
+      "eval_start": "2013-01-01",
+      "eval_end": "2023-02-01",
+      "n_obs": 122
+    },
+    {
+      "country": "ru",
+      "horizon": "h6",
+      "rw_mcs_p_value": 0.679,
+      "rw_in_mcs": true,
+      "eval_start": "2013-03-01",
+      "eval_end": "2023-02-01",
+      "n_obs": 120
+    },
+    {
+      "country": "ru",
+      "horizon": "h7",
+      "rw_mcs_p_value": 0.777,
+      "rw_in_mcs": true,
+      "eval_start": "2013-05-01",
+      "eval_end": "2023-02-01",
+      "n_obs": 118
+    },
+    {
+      "country": "ru",
+      "horizon": "h8",
+      "rw_mcs_p_value": 0.6174,
+      "rw_in_mcs": true,
+      "eval_start": "2013-07-01",
+      "eval_end": "2023-02-01",
+      "n_obs": 116
+    },
+    {
+      "country": "ru",
+      "horizon": "h9",
+      "rw_mcs_p_value": 0.9208,
+      "rw_in_mcs": true,
+      "eval_start": "2013-09-01",
+      "eval_end": "2023-02-01",
+      "n_obs": 114
+    },
+    {
+      "country": "ru",
+      "horizon": "h10",
+      "rw_mcs_p_value": 0.9742,
+      "rw_in_mcs": true,
+      "eval_start": "2013-11-01",
+      "eval_end": "2023-02-01",
+      "n_obs": 112
+    },
+    {
+      "country": "ru",
+      "horizon": "h11",
+      "rw_mcs_p_value": 0.994,
+      "rw_in_mcs": true,
+      "eval_start": "2014-01-01",
+      "eval_end": "2023-02-01",
+      "n_obs": 110
+    },
+    {
+      "country": "ru",
+      "horizon": "h12",
+      "rw_mcs_p_value": 0.9716,
+      "rw_in_mcs": true,
+      "eval_start": "2014-03-01",
+      "eval_end": "2023-02-01",
+      "n_obs": 108
+    },
+    {
+      "country": "se",
+      "horizon": "h1",
+      "rw_mcs_p_value": 0.8998,
+      "rw_in_mcs": true,
+      "eval_start": "2009-05-01",
+      "eval_end": "2025-12-01",
+      "n_obs": 200
+    },
+    {
+      "country": "se",
+      "horizon": "h2",
+      "rw_mcs_p_value": 0.9938,
+      "rw_in_mcs": true,
+      "eval_start": "2009-07-01",
+      "eval_end": "2025-12-01",
+      "n_obs": 198
+    },
+    {
+      "country": "se",
+      "horizon": "h3",
+      "rw_mcs_p_value": 0.9936,
+      "rw_in_mcs": true,
+      "eval_start": "2009-09-01",
+      "eval_end": "2025-12-01",
+      "n_obs": 196
+    },
+    {
+      "country": "se",
+      "horizon": "h4",
+      "rw_mcs_p_value": 0.9786,
+      "rw_in_mcs": true,
+      "eval_start": "2009-11-01",
+      "eval_end": "2025-12-01",
+      "n_obs": 194
+    },
+    {
+      "country": "se",
+      "horizon": "h5",
+      "rw_mcs_p_value": 0.9962,
+      "rw_in_mcs": true,
+      "eval_start": "2010-01-01",
+      "eval_end": "2025-12-01",
+      "n_obs": 192
+    },
+    {
+      "country": "se",
+      "horizon": "h6",
+      "rw_mcs_p_value": 0.9154,
+      "rw_in_mcs": true,
+      "eval_start": "2010-03-01",
+      "eval_end": "2025-12-01",
+      "n_obs": 190
+    },
+    {
+      "country": "se",
+      "horizon": "h7",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "2010-05-01",
+      "eval_end": "2025-12-01",
+      "n_obs": 188
+    },
+    {
+      "country": "se",
+      "horizon": "h8",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "2010-07-01",
+      "eval_end": "2025-12-01",
+      "n_obs": 186
+    },
+    {
+      "country": "se",
+      "horizon": "h9",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "2010-09-01",
+      "eval_end": "2025-12-01",
+      "n_obs": 184
+    },
+    {
+      "country": "se",
+      "horizon": "h10",
+      "rw_mcs_p_value": 0.9706,
+      "rw_in_mcs": true,
+      "eval_start": "2010-11-01",
+      "eval_end": "2025-11-01",
+      "n_obs": 181
+    },
+    {
+      "country": "se",
+      "horizon": "h11",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "2011-01-01",
+      "eval_end": "2025-10-01",
+      "n_obs": 178
+    },
+    {
+      "country": "se",
+      "horizon": "h12",
+      "rw_mcs_p_value": 0.9646,
+      "rw_in_mcs": true,
+      "eval_start": "2011-03-01",
+      "eval_end": "2025-09-01",
+      "n_obs": 175
+    },
+    {
+      "country": "za",
+      "horizon": "h1",
+      "rw_mcs_p_value": 0.9982,
+      "rw_in_mcs": true,
+      "eval_start": "2012-05-01",
+      "eval_end": "2026-05-01",
+      "n_obs": 169
+    },
+    {
+      "country": "za",
+      "horizon": "h2",
+      "rw_mcs_p_value": 0.9912,
+      "rw_in_mcs": true,
+      "eval_start": "2012-07-01",
+      "eval_end": "2026-05-01",
+      "n_obs": 167
+    },
+    {
+      "country": "za",
+      "horizon": "h3",
+      "rw_mcs_p_value": 0.9772,
+      "rw_in_mcs": true,
+      "eval_start": "2012-09-01",
+      "eval_end": "2026-05-01",
+      "n_obs": 165
+    },
+    {
+      "country": "za",
+      "horizon": "h4",
+      "rw_mcs_p_value": 0.993,
+      "rw_in_mcs": true,
+      "eval_start": "2012-11-01",
+      "eval_end": "2026-05-01",
+      "n_obs": 163
+    },
+    {
+      "country": "za",
+      "horizon": "h5",
+      "rw_mcs_p_value": 0.994,
+      "rw_in_mcs": true,
+      "eval_start": "2013-01-01",
+      "eval_end": "2026-04-01",
+      "n_obs": 160
+    },
+    {
+      "country": "za",
+      "horizon": "h6",
+      "rw_mcs_p_value": 0.9994,
+      "rw_in_mcs": true,
+      "eval_start": "2013-03-01",
+      "eval_end": "2026-03-01",
+      "n_obs": 157
+    },
+    {
+      "country": "za",
+      "horizon": "h7",
+      "rw_mcs_p_value": 0.9956,
+      "rw_in_mcs": true,
+      "eval_start": "2013-05-01",
+      "eval_end": "2026-02-01",
+      "n_obs": 154
+    },
+    {
+      "country": "za",
+      "horizon": "h8",
+      "rw_mcs_p_value": 0.9982,
+      "rw_in_mcs": true,
+      "eval_start": "2013-07-01",
+      "eval_end": "2026-01-01",
+      "n_obs": 151
+    },
+    {
+      "country": "za",
+      "horizon": "h9",
+      "rw_mcs_p_value": 0.9988,
+      "rw_in_mcs": true,
+      "eval_start": "2013-09-01",
+      "eval_end": "2025-12-01",
+      "n_obs": 148
+    },
+    {
+      "country": "za",
+      "horizon": "h10",
+      "rw_mcs_p_value": 0.9842,
+      "rw_in_mcs": true,
+      "eval_start": "2013-11-01",
+      "eval_end": "2025-11-01",
+      "n_obs": 145
+    },
+    {
+      "country": "za",
+      "horizon": "h11",
+      "rw_mcs_p_value": 1,
+      "rw_in_mcs": true,
+      "eval_start": "2014-01-01",
+      "eval_end": "2025-10-01",
+      "n_obs": 142
+    },
+    {
+      "country": "za",
+      "horizon": "h12",
+      "rw_mcs_p_value": 0.9804,
+      "rw_in_mcs": true,
+      "eval_start": "2014-03-01",
+      "eval_end": "2025-09-01",
+      "n_obs": 139
+    }
+  ],
+  "mcs_summary": [
+    {
+      "country": "br",
+      "n_horizons": 12,
+      "n_rw_survives": 12,
+      "pct_rw_survives": 100
+    },
+    {
+      "country": "ca",
+      "n_horizons": 12,
+      "n_rw_survives": 12,
+      "pct_rw_survives": 100
+    },
+    {
+      "country": "cn",
+      "n_horizons": 12,
+      "n_rw_survives": 12,
+      "pct_rw_survives": 100
+    },
+    {
+      "country": "dk",
+      "n_horizons": 12,
+      "n_rw_survives": 12,
+      "pct_rw_survives": 100
+    },
+    {
+      "country": "fr",
+      "n_horizons": 12,
+      "n_rw_survives": 12,
+      "pct_rw_survives": 100
+    },
+    {
+      "country": "gb",
+      "n_horizons": 12,
+      "n_rw_survives": 12,
+      "pct_rw_survives": 100
+    },
+    {
+      "country": "id",
+      "n_horizons": 12,
+      "n_rw_survives": 10,
+      "pct_rw_survives": 83.3
+    },
+    {
+      "country": "in",
+      "n_horizons": 12,
+      "n_rw_survives": 12,
+      "pct_rw_survives": 100
+    },
+    {
+      "country": "jp",
+      "n_horizons": 12,
+      "n_rw_survives": 12,
+      "pct_rw_survives": 100
+    },
+    {
+      "country": "ru",
+      "n_horizons": 12,
+      "n_rw_survives": 12,
+      "pct_rw_survives": 100
+    },
+    {
+      "country": "se",
+      "n_horizons": 12,
+      "n_rw_survives": 12,
+      "pct_rw_survives": 100
+    },
+    {
+      "country": "za",
+      "n_horizons": 12,
+      "n_rw_survives": 12,
+      "pct_rw_survives": 100
+    }
+  ],
+  "overall_mcs": [
+    {
+      "n": 144,
+      "n_rw": 142,
+      "pct_rw": 98.6
+    }
+  ],
+  "mcs_threshold": [
+    {
+      "country": "br",
+      "first_elim_horizon": null,
+      "retained_through": "h12",
+      "survives_after_first_elim": false
+    },
+    {
+      "country": "ca",
+      "first_elim_horizon": null,
+      "retained_through": "h12",
+      "survives_after_first_elim": false
+    },
+    {
+      "country": "cn",
+      "first_elim_horizon": null,
+      "retained_through": "h12",
+      "survives_after_first_elim": false
+    },
+    {
+      "country": "dk",
+      "first_elim_horizon": null,
+      "retained_through": "h12",
+      "survives_after_first_elim": false
+    },
+    {
+      "country": "fr",
+      "first_elim_horizon": null,
+      "retained_through": "h12",
+      "survives_after_first_elim": false
+    },
+    {
+      "country": "gb",
+      "first_elim_horizon": null,
+      "retained_through": "h12",
+      "survives_after_first_elim": false
+    },
+    {
+      "country": "id",
+      "first_elim_horizon": "h11",
+      "retained_through": "h10",
+      "survives_after_first_elim": false
+    },
+    {
+      "country": "in",
+      "first_elim_horizon": null,
+      "retained_through": "h12",
+      "survives_after_first_elim": false
+    },
+    {
+      "country": "jp",
+      "first_elim_horizon": null,
+      "retained_through": "h12",
+      "survives_after_first_elim": false
+    },
+    {
+      "country": "ru",
+      "first_elim_horizon": null,
+      "retained_through": "h12",
+      "survives_after_first_elim": false
+    },
+    {
+      "country": "se",
+      "first_elim_horizon": null,
+      "retained_through": "h12",
+      "survives_after_first_elim": false
+    },
+    {
+      "country": "za",
+      "first_elim_horizon": null,
+      "retained_through": "h12",
+      "survives_after_first_elim": false
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+
+\begin{ThreePartTable}
+\begin{TableNotes}[para]
+\item \textit{Note:} 
+\item Values are relative RMSE (model / random walk). *, **, *** denote significance at 10\%, 5\%, 1\% under the DM test (H0: RW is not outperformed).
+\end{TableNotes}
+\begin{longtable}[t]{lcccc}
+\caption{\label{tab:dm_cn_ecm}Relative RMSE and Diebold-Mariano test significance -- CN (ecm)}\\
+\toprule
+Model & h1 & h4 & h8 & h12\\
+\midrule
+\endfirsthead
+\caption[]{Relative RMSE and Diebold-Mariano test significance -- CN (ecm) \textit{(continued)}}\\
+\toprule
+Model & h1 & h4 & h8 & h12\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\insertTableNotes
+\endlastfoot
+Monetary model & 1.005 & 1.015 & 1.094 & 1.128\\
+Monetary model, sticky prices & 0.993 & 1.029 & 1.087 & 1.128\\
+Monetary model, sticky prices, UIP deviations & 0.983 & 1.080 & 1.092 & 1.142\\
+Monetary model, UIP deviations & 0.993 & 1.037 & 1.076 & 1.125\\
+Taylor rule model & 0.996 & 1.024 & 1.071 & 1.127\\*
+\end{longtable}
+\end{ThreePartTable}

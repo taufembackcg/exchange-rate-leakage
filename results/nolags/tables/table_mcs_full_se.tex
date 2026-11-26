@@ -1,0 +1,168 @@
+\begingroup\fontsize{8}{10}\selectfont\setlength{\tabcolsep}{3pt}
+
+\begin{ThreePartTable}
+\begin{TableNotes}[para]
+\item \textit{Note:} 
+\item For each horizon, models are listed in elimination order (worst/first-eliminated at top). Avg. Loss is the mean squared forecast loss; p-value (elim.) is the p-value at the step the model was tested for elimination; MCS p-value is the running maximum, i.e. the model's final MCS p-value. A model is retained in the final Model Confidence Set when its MCS p-value is at least alpha = 0.1. Statistic = Tmax, block length k = max(3, h), B = 5000.
+\end{TableNotes}
+\begin{longtable}[t]{cp{5.5cm}ccc}
+\caption{\label{tab:mcs_full_se}Model Confidence Set -- full elimination sequence, Top-10 pre-filter -- SE}\\
+\toprule
+Horizon & Model & Avg. Loss & p-value (elim.) & MCS p-value\\
+\midrule
+\endfirsthead
+\caption[]{Model Confidence Set -- full elimination sequence, Top-10 pre-filter -- SE \textit{(continued)}}\\
+\toprule
+Horizon & Model & Avg. Loss & p-value (elim.) & MCS p-value\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\insertTableNotes
+\endlastfoot
+h1 & \raggedright Random Walk & 0.0010 & 0.998 & 0.998\\
+h1 & \raggedright Monetary model, UIP deviations [svmlw2] (ecm) & 0.0010 & 1.000 & 1.000\\
+h1 & \raggedright Monetary model, sticky prices [ridge] (ecm) & 0.0010 & 0.994 & 1.000\\
+h1 & \raggedright Monetary model, sticky prices [sp] (ecm) & 0.0010 & 0.889 & 1.000\\
+h1 & \raggedright Taylor rule model [svmlw2] (ecm) & 0.0010 & 0.993 & 1.000\\
+h1 & \raggedright Monetary model [sp] (ecm) & 0.0010 & 0.990 & 1.000\\
+h1 & \raggedright Taylor rule model [pcr] (dif) & 0.0010 & 0.995 & 1.000\\
+h1 & \raggedright Monetary model, sticky prices, UIP deviations [ridge] (ecm) & 0.0010 & 1.000 & 1.000\\
+h1 & \raggedright Monetary model, sticky prices [lasso] (ecm) & 0.0010 & 1.000 & 1.000\\
+h1 & \raggedright Monetary model, sticky prices, UIP deviations [gamboost] (ecm) & 0.0010 & 0.998 & 1.000\\
+h1 & \raggedright Monetary model [spi] (ecm) & 0.0010 & 1.000 & 1.000\\
+\addlinespace
+h2 & \raggedright Random Walk & 0.0018 & 0.476 & 0.476\\
+h2 & \raggedright Monetary model, sticky prices [svmr] (ecm) & 0.0016 & 0.701 & 0.961\\
+h2 & \raggedright Taylor rule model [svmr] (ecm) & 0.0017 & 0.863 & 0.961\\
+h2 & \raggedright Monetary model, UIP deviations [svmr] (ecm) & 0.0017 & 0.857 & 0.961\\
+h2 & \raggedright Monetary model, UIP deviations [svmlw2] (dif) & 0.0017 & 0.860 & 0.961\\
+h2 & \raggedright Taylor rule model [ridge] (ecm) & 0.0017 & 0.770 & 0.961\\
+h2 & \raggedright Monetary model [svmr] (ecm) & 0.0017 & 0.909 & 0.961\\
+h2 & \raggedright Monetary model [svmlw2] (dif) & 0.0017 & 0.923 & 0.961\\
+h2 & \raggedright Monetary model, sticky prices, UIP deviations [svmlw2] (dif) & 0.0017 & 0.785 & 0.961\\
+h2 & \raggedright Taylor rule model [svmlw2] (ecm) & 0.0017 & 0.961 & 0.961\\
+h2 & \raggedright Monetary model, sticky prices, UIP deviations [svmr] (ecm) & 0.0016 & 1.000 & 1.000\\
+\addlinespace
+h3 & \raggedright Monetary model, UIP deviations [svmlw2] (dif) & 0.0026 & 0.820 & 0.820\\
+h3 & \raggedright Random Walk & 0.0026 & 0.868 & 0.886\\
+h3 & \raggedright Monetary model, sticky prices [svmr] (ecm) & 0.0025 & 0.046 & 0.886\\
+h3 & \raggedright Monetary model, sticky prices, UIP deviations [svmr] (ecm) & 0.0025 & 0.072 & 0.886\\
+h3 & \raggedright Monetary model [spi] (ecm) & 0.0025 & 0.870 & 0.886\\
+h3 & \raggedright Monetary model, sticky prices [sp] (ecm) & 0.0026 & 0.864 & 0.886\\
+h3 & \raggedright Monetary model, UIP deviations [svmr] (ecm) & 0.0026 & 0.830 & 0.886\\
+h3 & \raggedright Monetary model [sp] (ecm) & 0.0026 & 0.886 & 0.886\\
+h3 & \raggedright Monetary model, UIP deviations [earth] (dif) & 0.0026 & 0.512 & 0.886\\
+h3 & \raggedright Monetary model, sticky prices [ridge] (ecm) & 0.0026 & 0.742 & 0.886\\
+h3 & \raggedright Taylor rule model [svmr] (ecm) & 0.0023 & 1.000 & 1.000\\
+\addlinespace
+h4 & \raggedright Monetary model [svmlw2] (dif) & 0.0033 & 0.625 & 0.808\\
+h4 & \raggedright Monetary model [ridge] (dif) & 0.0034 & 0.553 & 0.808\\
+h4 & \raggedright Monetary model [ridge] (ecm) & 0.0034 & 0.762 & 0.808\\
+h4 & \raggedright Monetary model, sticky prices [svmlw2] (dif) & 0.0034 & 0.802 & 0.808\\
+h4 & \raggedright Monetary model, UIP deviations [svmlw2] (dif) & 0.0034 & 0.706 & 0.808\\
+h4 & \raggedright Taylor rule model [sp] (dif) & 0.0034 & 0.808 & 0.808\\
+h4 & \raggedright Random Walk & 0.0033 & 0.705 & 0.813\\
+h4 & \raggedright Monetary model [sp] (ecm) & 0.0032 & 0.397 & 0.813\\
+h4 & \raggedright Monetary model [spi] (ecm) & 0.0033 & 0.496 & 0.813\\
+h4 & \raggedright Taylor rule model [svmlw2] (dif) & 0.0033 & 0.813 & 0.813\\
+h4 & \raggedright Taylor rule model [svmr] (ecm) & 0.0031 & 1.000 & 1.000\\
+\addlinespace
+h5 & \raggedright Monetary model, sticky prices [ridge] (dif) & 0.0042 & 0.612 & 0.612\\
+h5 & \raggedright Monetary model, sticky prices [spi] (dif) & 0.0042 & 0.615 & 0.615\\
+h5 & \raggedright Monetary model [ridge] (dif) & 0.0042 & 0.614 & 0.615\\
+h5 & \raggedright Random Walk & 0.0040 & 0.562 & 0.767\\
+h5 & \raggedright Monetary model, sticky prices [svmlw2] (dif) & 0.0040 & 0.593 & 0.767\\
+h5 & \raggedright Monetary model [svmlw2] (dif) & 0.0040 & 0.614 & 0.767\\
+h5 & \raggedright Monetary model, UIP deviations [svmlw2] (dif) & 0.0041 & 0.687 & 0.767\\
+h5 & \raggedright Taylor rule model [pcr] (dif) & 0.0041 & 0.738 & 0.767\\
+h5 & \raggedright Taylor rule model [pcr] (ecm) & 0.0041 & 0.315 & 0.767\\
+h5 & \raggedright Monetary model [ridge] (ecm) & 0.0041 & 0.767 & 0.767\\
+h5 & \raggedright Taylor rule model [svmr] (ecm) & 0.0035 & 1.000 & 1.000\\
+\addlinespace
+h6 & \raggedright Monetary model, sticky prices, UIP deviations [lasso] (dif) & 0.0051 & 0.819 & 0.819\\
+h6 & \raggedright Monetary model [spi] (ecm) & 0.0051 & 0.820 & 0.820\\
+h6 & \raggedright Monetary model [ridge] (dif) & 0.0051 & 0.846 & 0.846\\
+h6 & \raggedright Monetary model, UIP deviations [svmlw2] (dif) & 0.0050 & 0.866 & 0.871\\
+h6 & \raggedright Monetary model, UIP deviations [lasso] (dif) & 0.0051 & 0.871 & 0.871\\
+h6 & \raggedright Monetary model, sticky prices, UIP deviations [svmlw2] (dif) & 0.0050 & 0.934 & 0.934\\
+h6 & \raggedright Random Walk & 0.0048 & 0.823 & 0.955\\
+h6 & \raggedright Taylor rule model [pcr] (dif) & 0.0049 & 0.816 & 0.955\\
+h6 & \raggedright Monetary model, sticky prices, UIP deviations [earth] (dif) & 0.0050 & 0.955 & 0.955\\
+h6 & \raggedright Taylor rule model [svmr] (ecm) & 0.0047 & 1.000 & 1.000\\
+\addlinespace
+h7 & \raggedright Monetary model, UIP deviations [ridge] (dif) & 0.0063 & 0.526 & 0.526\\
+h7 & \raggedright Monetary model [lasso] (dif) & 0.0063 & 0.577 & 0.577\\
+h7 & \raggedright Monetary model [ridge] (dif) & 0.0063 & 0.570 & 0.589\\
+h7 & \raggedright Monetary model, sticky prices [sp] (dif) & 0.0063 & 0.589 & 0.589\\
+h7 & \raggedright Monetary model, UIP deviations [lasso] (dif) & 0.0063 & 0.611 & 0.611\\
+h7 & \raggedright Monetary model, sticky prices [ridge] (dif) & 0.0061 & 0.876 & 0.962\\
+h7 & \raggedright Taylor rule model [pcr] (dif) & 0.0062 & 0.962 & 0.962\\
+h7 & \raggedright Random Walk & 0.0059 & 0.908 & 0.981\\
+h7 & \raggedright Monetary model, sticky prices [svmr] (ecm) & 0.0060 & 0.888 & 0.981\\
+h7 & \raggedright Monetary model, sticky prices [lasso] (dif) & 0.0061 & 0.981 & 0.981\\
+h7 & \raggedright Taylor rule model [svmr] (ecm) & 0.0059 & 1.000 & 1.000\\
+\addlinespace
+h8 & \raggedright Monetary model, UIP deviations [ridge] (dif) & 0.0075 & 0.826 & 0.826\\
+h8 & \raggedright Monetary model [lasso] (dif) & 0.0075 & 0.868 & 0.868\\
+h8 & \raggedright Monetary model, UIP deviations [lasso] (dif) & 0.0075 & 0.868 & 0.872\\
+h8 & \raggedright Monetary model [ridge] (dif) & 0.0075 & 0.872 & 0.872\\
+h8 & \raggedright Monetary model, sticky prices [ridge] (dif) & 0.0072 & 0.705 & 0.971\\
+h8 & \raggedright Monetary model, sticky prices [lasso] (dif) & 0.0072 & 0.639 & 0.971\\
+h8 & \raggedright Taylor rule model [pcr] (dif) & 0.0074 & 0.923 & 0.971\\
+h8 & \raggedright Monetary model, sticky prices, UIP deviations [svmr] (ecm) & 0.0074 & 0.971 & 0.971\\
+h8 & \raggedright Taylor rule model [svmr] (ecm) & 0.0075 & 0.970 & 0.971\\
+h8 & \raggedright Random Walk & 0.0069 & 0.978 & 0.978\\
+h8 & \raggedright Monetary model, sticky prices [svmr] (ecm) & 0.0069 & 1.000 & 1.000\\
+\addlinespace
+h9 & \raggedright Monetary model, UIP deviations [lasso] (dif) & 0.0086 & 0.571 & 0.571\\
+h9 & \raggedright Monetary model, UIP deviations [ridge] (dif) & 0.0085 & 0.631 & 0.631\\
+h9 & \raggedright Monetary model [earth] (dif) & 0.0086 & 0.655 & 0.655\\
+h9 & \raggedright Monetary model [lasso] (dif) & 0.0085 & 0.516 & 0.698\\
+h9 & \raggedright Monetary model [spi] (ecm) & 0.0086 & 0.698 & 0.698\\
+h9 & \raggedright Monetary model [ridge] (dif) & 0.0084 & 0.720 & 0.720\\
+h9 & \raggedright Monetary model, sticky prices [lasso] (dif) & 0.0083 & 0.861 & 0.861\\
+h9 & \raggedright Monetary model, sticky prices [ridge] (dif) & 0.0081 & 0.849 & 0.961\\
+h9 & \raggedright Taylor rule model [pcr] (dif) & 0.0082 & 0.614 & 0.961\\
+h9 & \raggedright Monetary model, sticky prices, UIP deviations [svmr] (ecm) & 0.0083 & 0.961 & 0.961\\
+h9 & \raggedright Random Walk & 0.0078 & 1.000 & 1.000\\
+\addlinespace
+h10 & \raggedright Monetary model, UIP deviations [lasso] (dif) & 0.0093 & 0.901 & 0.901\\
+h10 & \raggedright Monetary model [ridge] (dif) & 0.0092 & 0.967 & 0.967\\
+h10 & \raggedright Monetary model [lasso] (dif) & 0.0092 & 0.970 & 0.970\\
+h10 & \raggedright Monetary model, UIP deviations [svmr] (ecm) & 0.0091 & 0.974 & 0.974\\
+h10 & \raggedright Monetary model, sticky prices [ridge] (dif) & 0.0090 & 0.988 & 0.988\\
+h10 & \raggedright Random Walk & 0.0083 & 0.977 & 0.993\\
+h10 & \raggedright Monetary model, sticky prices [lasso] (ecm) & 0.0086 & 0.929 & 0.993\\
+h10 & \raggedright Monetary model, sticky prices, UIP deviations [pcr] (ecm) & 0.0087 & 0.992 & 0.993\\
+h10 & \raggedright Taylor rule model [pcr] (dif) & 0.0089 & 0.967 & 0.993\\
+h10 & \raggedright Taylor rule model [pcr] (ecm) & 0.0091 & 0.993 & 0.993\\
+h10 & \raggedright Monetary model, sticky prices, UIP deviations [svmr] (ecm) & 0.0083 & 1.000 & 1.000\\
+\addlinespace
+h11 & \raggedright Monetary model, sticky prices, UIP deviations [spi] (ecm) & 0.0102 & 0.992 & 0.992\\
+h11 & \raggedright Monetary model, UIP deviations [svmr] (ecm) & 0.0101 & 0.989 & 0.992\\
+h11 & \raggedright Monetary model, sticky prices [svmlw2] (dif) & 0.0102 & 0.976 & 0.992\\
+h11 & \raggedright Taylor rule model [pcr] (dif) & 0.0103 & 0.992 & 0.992\\
+h11 & \raggedright Monetary model, sticky prices [ridge] (ecm) & 0.0103 & 0.977 & 0.992\\
+h11 & \raggedright Random Walk & 0.0093 & 0.879 & 0.998\\
+h11 & \raggedright Monetary model, sticky prices, UIP deviations [svmr] (ecm) & 0.0095 & 0.879 & 0.998\\
+h11 & \raggedright Monetary model, UIP deviations [spi] (ecm) & 0.0096 & 0.998 & 0.998\\
+h11 & \raggedright Monetary model, sticky prices [lasso] (ecm) & 0.0097 & 0.981 & 0.998\\
+h11 & \raggedright Monetary model, sticky prices, UIP deviations [pcr] (ecm) & 0.0097 & 0.998 & 0.998\\
+h11 & \raggedright Taylor rule model [pcr] (ecm) & 0.0090 & 1.000 & 1.000\\
+\addlinespace
+h12 & \raggedright Taylor rule model [spi] (ecm) & 0.0115 & 0.983 & 0.983\\
+h12 & \raggedright Monetary model [sp] (ecm) & 0.0112 & 0.978 & 0.988\\
+h12 & \raggedright Monetary model, sticky prices [svmlw2] (dif) & 0.0114 & 0.988 & 0.988\\
+h12 & \raggedright Random Walk & 0.0103 & 0.489 & 0.997\\
+h12 & \raggedright Monetary model, sticky prices, UIP deviations [svmr] (ecm) & 0.0108 & 0.753 & 0.997\\
+h12 & \raggedright Taylor rule model [svmlw2] (dif) & 0.0109 & 0.957 & 0.997\\
+h12 & \raggedright Monetary model, UIP deviations [svmr] (ecm) & 0.0110 & 0.904 & 0.997\\
+h12 & \raggedright Monetary model, sticky prices, UIP deviations [lasso] (ecm) & 0.0110 & 0.561 & 0.997\\
+h12 & \raggedright Taylor rule model [pcr] (dif) & 0.0112 & 0.981 & 0.997\\
+h12 & \raggedright Monetary model, sticky prices, UIP deviations [pcr] (ecm) & 0.0113 & 0.997 & 0.997\\
+h12 & \raggedright Taylor rule model [pcr] (ecm) & 0.0087 & 1.000 & 1.000\\*
+\end{longtable}
+\end{ThreePartTable}
+\endgroup{}

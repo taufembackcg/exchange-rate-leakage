@@ -1,0 +1,428 @@
+LASSO and Ridge: yearly lambda choices at the limits of the grid (1e-4 to 10)
+pct_at_max: share of yearly blocks with lambda = 10 (all coefficients 0 in LASSO:
+the forecast is the window's mean change, a drift)
+
+=== By variant, method and country ===
+ variant method country blocks pct_at_max pct_at_min median_lambda
+ filters  lasso      br    736       63.6        1.0       10.0000
+ filters  lasso      ca   1632       57.1        3.3       10.0000
+ filters  lasso      cn    638       46.9        5.0        0.0139
+ filters  lasso      dk    742       60.1        3.0       10.0000
+ filters  lasso      fr    256       57.0        2.7       10.0000
+ filters  lasso      gb    776       71.3        1.7       10.0000
+ filters  lasso      id    240       57.1        7.1       10.0000
+ filters  lasso      in    414       64.7        2.9       10.0000
+ filters  lasso      jp    816       64.1        1.8       10.0000
+ filters  lasso      ru    636       71.9        2.8       10.0000
+ filters  lasso      se    700       59.3        3.0       10.0000
+ filters  lasso      za    736       57.7        2.0       10.0000
+ filters  ridge      br    736       44.8        0.0        1.9300
+ filters  ridge      ca   1632       40.0        0.0        0.2950
+ filters  ridge      cn    638       26.2        1.6        0.0720
+ filters  ridge      dk    742       42.6        0.0        0.9540
+ filters  ridge      fr    256       46.9        0.0        7.9100
+ filters  ridge      gb    776       50.1        0.0       10.0000
+ filters  ridge      id    240       44.6        0.0        0.5960
+ filters  ridge      in    414       49.0        0.0        7.9100
+ filters  ridge      jp    816       44.4        0.0        1.7300
+ filters  ridge      ru    636       50.9        0.0       10.0000
+ filters  ridge      se    700       46.0        0.0        2.1900
+ filters  ridge      za    736       47.6        0.0        6.2500
+    main  lasso      br   2186       61.9        0.9       10.0000
+    main  lasso      ca   4882       55.2        3.8       10.0000
+    main  lasso      cn   1893       47.3        4.6        0.0176
+    main  lasso      dk   2221       61.7        1.4       10.0000
+    main  lasso      fr    744       53.5        3.1       10.0000
+    main  lasso      gb   2314       69.6        1.4       10.0000
+    main  lasso      id    712       46.3        7.4        0.0199
+    main  lasso      in   1211       59.0        2.0       10.0000
+    main  lasso      jp   2434       56.1        3.3       10.0000
+    main  lasso      ru   1899       72.9        2.6       10.0000
+    main  lasso      se   2093       56.5        3.1       10.0000
+    main  lasso      za   2193       63.6        1.5       10.0000
+    main  ridge      br   2186       43.3        0.0        1.2100
+    main  ridge      ca   4882       39.6        0.0        0.3730
+    main  ridge      cn   1893       24.0        0.6        0.0910
+    main  ridge      dk   2221       49.8        0.0        7.9100
+    main  ridge      fr    744       44.6        0.0        2.1900
+    main  ridge      gb   2314       49.5        0.0        7.9100
+    main  ridge      id    712       43.4        0.0        0.7540
+    main  ridge      in   1211       49.1        0.0        7.9100
+    main  ridge      jp   2434       35.7        0.0        0.2950
+    main  ridge      ru   1899       53.2        0.0       10.0000
+    main  ridge      se   2093       46.2        0.0        3.0900
+    main  ridge      za   2193       55.9        0.0       10.0000
+  nolags  lasso      br    743       64.6        0.9       10.0000
+  nolags  lasso      ca   1637       52.5        3.1       10.0000
+  nolags  lasso      cn    644       47.5        6.7        0.0139
+  nolags  lasso      dk    749       63.8        1.2       10.0000
+  nolags  lasso      fr    260       53.5        5.0       10.0000
+  nolags  lasso      gb    789       71.7        0.9       10.0000
+  nolags  lasso      id    252       49.6        6.3        0.0157
+  nolags  lasso      in    416       69.5        1.7       10.0000
+  nolags  lasso      jp    825       53.5        3.4       10.0000
+  nolags  lasso      ru    636       70.6        3.0       10.0000
+  nolags  lasso      se    703       56.5        3.1       10.0000
+  nolags  lasso      za    744       59.3        3.6       10.0000
+  nolags  ridge      br    743       44.0        0.0        2.4400
+  nolags  ridge      ca   1637       38.0        0.0        0.2330
+  nolags  ridge      cn    644       29.0        1.7        0.0910
+  nolags  ridge      dk    749       49.0        0.0        7.9100
+  nolags  ridge      fr    260       46.5        0.0        3.6900
+  nolags  ridge      gb    789       50.1        0.0       10.0000
+  nolags  ridge      id    252       40.1        0.0        0.4710
+  nolags  ridge      in    416       57.2        0.0       10.0000
+  nolags  ridge      jp    825       37.9        0.0        0.2330
+  nolags  ridge      ru    636       49.2        0.3        7.0800
+  nolags  ridge      se    703       43.0        0.0        0.9540
+  nolags  ridge      za    744       49.5        0.0        7.9100
+ scaling  lasso      br    736       65.2        1.1       10.0000
+ scaling  lasso      ca   1632       56.0        3.3       10.0000
+ scaling  lasso      cn    638       50.5        4.1       10.0000
+ scaling  lasso      dk    742       62.7        2.2       10.0000
+ scaling  lasso      fr    256       54.3        2.3       10.0000
+ scaling  lasso      gb    776       71.3        1.4       10.0000
+ scaling  lasso      id    240       50.8        8.8       10.0000
+ scaling  lasso      in    414       58.7        2.2       10.0000
+ scaling  lasso      jp    816       57.0        2.7       10.0000
+ scaling  lasso      ru    636       71.4        2.8       10.0000
+ scaling  lasso      se    700       59.3        2.3       10.0000
+ scaling  lasso      za    736       63.0        1.4       10.0000
+ scaling  ridge      br    736       45.2        0.0        2.4400
+ scaling  ridge      ca   1632       38.9        0.0        0.2950
+ scaling  ridge      cn    638       26.2        1.1        0.0910
+ scaling  ridge      dk    742       46.5        0.1        3.0900
+ scaling  ridge      fr    256       47.3        0.0        7.9100
+ scaling  ridge      gb    776       51.7        0.0       10.0000
+ scaling  ridge      id    240       47.5        0.0        2.7700
+ scaling  ridge      in    414       46.1        0.0        7.9100
+ scaling  ridge      jp    816       36.6        0.0        0.2950
+ scaling  ridge      ru    636       49.8        0.0        7.9100
+ scaling  ridge      se    700       47.4        0.0        4.4200
+ scaling  ridge      za    736       49.2        0.0        7.9100
+  window  lasso      br    744       65.1        1.1       10.0000
+  window  lasso      ca   1648       55.7        3.3       10.0000
+  window  lasso      cn    657       50.1        4.0       10.0000
+  window  lasso      dk    755       62.3        2.1       10.0000
+  window  lasso      fr    272       54.0        2.2       10.0000
+  window  lasso      gb    790       70.5        1.4       10.0000
+  window  lasso      id    252       49.6        8.3        0.0356
+  window  lasso      in    429       58.3        2.3       10.0000
+  window  lasso      jp    830       56.7        2.7       10.0000
+  window  lasso      ru    651       71.7        2.8       10.0000
+  window  lasso      se    717       58.7        2.2       10.0000
+  window  lasso      za    750       63.2        1.3       10.0000
+  window  ridge      br    744       45.0        0.0        2.4400
+  window  ridge      ca   1648       38.9        0.0        0.2950
+  window  ridge      cn    657       26.0        1.1        0.0910
+  window  ridge      dk    755       46.6        0.1        3.0900
+  window  ridge      fr    272       47.8        0.0        7.9100
+  window  ridge      gb    790       51.3        0.0       10.0000
+  window  ridge      id    252       45.2        0.0        1.2400
+  window  ridge      in    429       46.2        0.0        7.9100
+  window  ridge      jp    830       36.5        0.0        0.2950
+  window  ridge      ru    651       50.1        0.0       10.0000
+  window  ridge      se    717       47.6        0.0        4.9400
+  window  ridge      za    750       49.6        0.0        7.9100
+
+=== By variant, method and horizon ===
+ variant method horizon blocks pct_at_max pct_at_min median_lambda
+ filters  lasso      h1   2156       65.9        2.5        10.000
+ filters  lasso      h3   2136       65.9        1.7        10.000
+ filters  lasso      h6   2080       60.0        3.7        10.000
+ filters  lasso     h12   1950       51.0        3.4        10.000
+ filters  ridge      h1   2156       45.5        0.3         0.954
+ filters  ridge      h3   2136       41.2        0.1         1.210
+ filters  ridge      h6   2080       46.9        0.0         6.250
+ filters  ridge     h12   1950       41.3        0.0         0.754
+    main  lasso      h1   2156       64.6        2.4        10.000
+    main  lasso      h2   2152       62.7        1.8        10.000
+    main  lasso      h3   2136       66.0        1.8        10.000
+    main  lasso      h4   2125       63.2        2.1        10.000
+    main  lasso      h5   2107       62.3        2.7        10.000
+    main  lasso      h6   2080       59.7        3.0        10.000
+    main  lasso      h7   2059       56.5        3.0        10.000
+    main  lasso      h8   2054       56.6        2.9        10.000
+    main  lasso      h9   2024       57.0        3.1        10.000
+    main  lasso     h10   1985       56.9        3.5        10.000
+    main  lasso     h11   1954       53.4        3.7        10.000
+    main  lasso     h12   1950       50.9        3.2        10.000
+    main  ridge      h1   2156       45.3        0.2         0.754
+    main  ridge      h2   2152       42.1        0.2         0.754
+    main  ridge      h3   2136       41.4        0.1         2.440
+    main  ridge      h4   2125       45.2        0.0         4.940
+    main  ridge      h5   2107       46.8        0.0         6.250
+    main  ridge      h6   2080       46.0        0.0         3.500
+    main  ridge      h7   2059       44.1        0.0         1.530
+    main  ridge      h8   2054       44.7        0.0         1.530
+    main  ridge      h9   2024       44.1        0.0         1.530
+    main  ridge     h10   1985       44.1        0.0         1.210
+    main  ridge     h11   1954       42.7        0.0         0.954
+    main  ridge     h12   1950       41.0        0.0         0.754
+  nolags  lasso      h1   2190       63.3        3.3        10.000
+  nolags  lasso      h3   2148       60.7        1.9        10.000
+  nolags  lasso      h6   2110       60.8        3.2        10.000
+  nolags  lasso     h12   1950       51.2        3.5        10.000
+  nolags  ridge      h1   2190       47.4        0.5         2.440
+  nolags  ridge      h3   2148       40.6        0.1         1.210
+  nolags  ridge      h6   2110       46.3        0.0         4.940
+  nolags  ridge     h12   1950       39.3        0.0         0.754
+ scaling  lasso      h1   2156       64.6        2.4        10.000
+ scaling  lasso      h3   2136       66.0        1.8        10.000
+ scaling  lasso      h6   2080       59.7        3.0        10.000
+ scaling  lasso     h12   1950       50.9        3.2        10.000
+ scaling  ridge      h1   2156       45.3        0.2         0.754
+ scaling  ridge      h3   2136       41.4        0.1         2.440
+ scaling  ridge      h6   2080       46.0        0.0         3.500
+ scaling  ridge     h12   1950       41.0        0.0         0.754
+  window  lasso      h1   2156       64.6        2.4        10.000
+  window  lasso      h3   2148       66.0        1.8        10.000
+  window  lasso      h6   2129       59.4        3.0        10.000
+  window  lasso     h12   2062       50.4        3.1        10.000
+  window  ridge      h1   2156       45.3        0.2         0.754
+  window  ridge      h3   2148       41.2        0.1         2.440
+  window  ridge      h6   2129       45.8        0.0         3.090
+  window  ridge     h12   2062       41.2        0.0         0.754
+
+=== By variant, method, country and specification (DIF/ECM) ===
+ variant method country type blocks pct_at_max pct_at_min median_lambda
+ filters  lasso      br  dif    363       77.4        0.6      10.00000
+ filters  lasso      br  ecm    373       50.1        1.3      10.00000
+ filters  lasso      ca  dif    811       77.1        3.5      10.00000
+ filters  lasso      ca  ecm    821       37.4        3.2       0.01390
+ filters  lasso      cn  dif    314       56.7        1.6      10.00000
+ filters  lasso      cn  ecm    324       37.3        8.3       0.00543
+ filters  lasso      dk  dif    367       76.8        4.6      10.00000
+ filters  lasso      dk  ecm    375       43.7        1.3       0.02220
+ filters  lasso      fr  dif    124       75.0        3.2      10.00000
+ filters  lasso      fr  ecm    132       40.2        2.3       0.02520
+ filters  lasso      gb  dif    383       72.8        1.0      10.00000
+ filters  lasso      gb  ecm    393       69.7        2.3      10.00000
+ filters  lasso      id  dif    116       88.8        0.0      10.00000
+ filters  lasso      id  ecm    124       27.4       13.7       0.00869
+ filters  lasso      in  dif    202       73.3        2.0      10.00000
+ filters  lasso      in  ecm    212       56.6        3.8      10.00000
+ filters  lasso      jp  dif    403       72.0        2.2      10.00000
+ filters  lasso      jp  ecm    413       56.4        1.5      10.00000
+ filters  lasso      ru  dif    313       73.5        0.3      10.00000
+ filters  lasso      ru  ecm    323       70.3        5.3      10.00000
+ filters  lasso      se  dif    345       77.1        3.8      10.00000
+ filters  lasso      se  ecm    355       42.0        2.3       0.03560
+ filters  lasso      za  dif    363       72.7        3.3      10.00000
+ filters  lasso      za  ecm    373       43.2        0.8       0.05690
+ filters  ridge      br  dif    363       61.7        0.0      10.00000
+ filters  ridge      br  ecm    373       28.4        0.0       0.29500
+ filters  ridge      ca  dif    811       56.6        0.0      10.00000
+ filters  ridge      ca  ecm    821       23.6        0.0       0.09100
+ filters  ridge      cn  dif    314       32.8        0.0       0.11500
+ filters  ridge      cn  ecm    324       19.8        3.1       0.02810
+ filters  ridge      dk  dif    367       58.9        0.0      10.00000
+ filters  ridge      dk  ecm    375       26.7        0.0       0.09100
+ filters  ridge      fr  dif    124       65.3        0.0      10.00000
+ filters  ridge      fr  ecm    132       29.5        0.0       0.18400
+ filters  ridge      gb  dif    383       58.2        0.0      10.00000
+ filters  ridge      gb  ecm    393       42.2        0.0       1.21000
+ filters  ridge      id  dif    116       74.1        0.0      10.00000
+ filters  ridge      id  ecm    124       16.9        0.0       0.02810
+ filters  ridge      in  dif    202       45.0        0.0       6.25000
+ filters  ridge      in  ecm    212       52.8        0.0      10.00000
+ filters  ridge      jp  dif    403       57.8        0.0      10.00000
+ filters  ridge      jp  ecm    413       31.2        0.0       0.14600
+ filters  ridge      ru  dif    313       59.4        0.0      10.00000
+ filters  ridge      ru  ecm    323       42.7        0.0       1.93000
+ filters  ridge      se  dif    345       62.9        0.0      10.00000
+ filters  ridge      se  ecm    355       29.6        0.0       0.23300
+ filters  ridge      za  dif    363       60.1        0.0      10.00000
+ filters  ridge      za  ecm    373       35.4        0.0       0.37300
+    main  lasso      br  dif   1078       80.1        0.7      10.00000
+    main  lasso      br  ecm   1108       44.3        1.1       0.05690
+    main  lasso      ca  dif   2426       74.2        4.7      10.00000
+    main  lasso      ca  ecm   2456       36.4        2.9       0.01760
+    main  lasso      cn  dif    928       55.7        3.0      10.00000
+    main  lasso      cn  ecm    965       39.3        6.1       0.00687
+    main  lasso      dk  dif   1096       82.8        1.6      10.00000
+    main  lasso      dk  ecm   1125       41.2        1.1       0.02220
+    main  lasso      fr  dif    360       70.8        4.4      10.00000
+    main  lasso      fr  ecm    384       37.2        1.8       0.02220
+    main  lasso      gb  dif   1142       68.0        1.5      10.00000
+    main  lasso      gb  ecm   1172       71.2        1.3      10.00000
+    main  lasso      id  dif    344       73.3        0.0      10.00000
+    main  lasso      id  ecm    368       21.2       14.4       0.00687
+    main  lasso      in  dif    591       66.0        0.7      10.00000
+    main  lasso      in  ecm    620       52.3        3.2      10.00000
+    main  lasso      jp  dif   1202       69.8        2.7      10.00000
+    main  lasso      jp  ecm   1232       42.7        3.9       0.02220
+    main  lasso      ru  dif    932       71.5        0.4      10.00000
+    main  lasso      ru  ecm    967       74.4        4.8      10.00000
+    main  lasso      se  dif   1028       75.0        3.7      10.00000
+    main  lasso      se  ecm   1065       38.6        2.5       0.03560
+    main  lasso      za  dif   1081       83.4        1.9      10.00000
+    main  lasso      za  ecm   1112       44.3        1.2       0.05690
+    main  ridge      br  dif   1078       60.6        0.0      10.00000
+    main  ridge      br  ecm   1108       26.5        0.0       0.29500
+    main  ridge      ca  dif   2426       54.4        0.0      10.00000
+    main  ridge      ca  ecm   2456       25.0        0.0       0.11500
+    main  ridge      cn  dif    928       27.9        0.0       0.14600
+    main  ridge      cn  ecm    965       20.3        1.1       0.03560
+    main  ridge      dk  dif   1096       74.9        0.1      10.00000
+    main  ridge      dk  ecm   1125       25.3        0.0       0.11500
+    main  ridge      fr  dif    360       65.6        0.0      10.00000
+    main  ridge      fr  ecm    384       25.0        0.0       0.20900
+    main  ridge      gb  dif   1142       53.2        0.0      10.00000
+    main  ridge      gb  ecm   1172       46.0        0.0       6.25000
+    main  ridge      id  dif    344       68.6        0.0      10.00000
+    main  ridge      id  ecm    368       19.8        0.0       0.02810
+    main  ridge      in  dif    591       45.2        0.0       7.91000
+    main  ridge      in  ecm    620       52.9        0.0      10.00000
+    main  ridge      jp  dif   1202       49.1        0.0       7.91000
+    main  ridge      jp  ecm   1232       22.6        0.0       0.11500
+    main  ridge      ru  dif    932       63.6        0.0      10.00000
+    main  ridge      ru  ecm    967       43.2        0.0       1.93000
+    main  ridge      se  dif   1028       64.0        0.0      10.00000
+    main  ridge      se  ecm   1065       29.1        0.0       0.23300
+    main  ridge      za  dif   1081       72.9        0.0      10.00000
+    main  ridge      za  ecm   1112       39.4        0.0       0.75400
+  nolags  lasso      br  dif    368       85.1        0.5      10.00000
+  nolags  lasso      br  ecm    375       44.5        1.3       0.04500
+  nolags  lasso      ca  dif    814       67.9        4.2      10.00000
+  nolags  lasso      ca  ecm    823       37.3        2.1       0.01390
+  nolags  lasso      cn  dif    317       55.8        1.6      10.00000
+  nolags  lasso      cn  ecm    327       39.4       11.6       0.00543
+  nolags  lasso      dk  dif    372       79.6        0.5      10.00000
+  nolags  lasso      dk  ecm    377       48.3        1.9       0.02810
+  nolags  lasso      fr  dif    128       65.6        7.8      10.00000
+  nolags  lasso      fr  ecm    132       41.7        2.3       0.01760
+  nolags  lasso      gb  dif    392       75.5        0.8      10.00000
+  nolags  lasso      gb  ecm    397       68.0        1.0      10.00000
+  nolags  lasso      id  dif    124       63.7        0.8      10.00000
+  nolags  lasso      id  ecm    128       35.9       11.7       0.01100
+  nolags  lasso      in  dif    203       67.0        1.0      10.00000
+  nolags  lasso      in  ecm    213       71.8        2.3      10.00000
+  nolags  lasso      jp  dif    408       65.4        4.7      10.00000
+  nolags  lasso      jp  ecm    417       41.7        2.2       0.01390
+  nolags  lasso      ru  dif    313       70.0        2.2      10.00000
+  nolags  lasso      ru  ecm    323       71.2        3.7      10.00000
+  nolags  lasso      se  dif    348       76.4        1.7      10.00000
+  nolags  lasso      se  ecm    355       36.9        4.5       0.01760
+  nolags  lasso      za  dif    367       75.7        5.7      10.00000
+  nolags  lasso      za  ecm    377       43.2        1.6       0.05690
+  nolags  ridge      br  dif    368       63.3        0.0      10.00000
+  nolags  ridge      br  ecm    375       25.1        0.0       0.29500
+  nolags  ridge      ca  dif    814       53.3        0.0      10.00000
+  nolags  ridge      ca  ecm    823       22.8        0.0       0.09100
+  nolags  ridge      cn  dif    317       36.6        0.0       0.23300
+  nolags  ridge      cn  ecm    327       21.7        3.4       0.02810
+  nolags  ridge      dk  dif    372       70.7        0.0      10.00000
+  nolags  ridge      dk  ecm    377       27.6        0.0       0.11500
+  nolags  ridge      fr  dif    128       59.4        0.0      10.00000
+  nolags  ridge      fr  ecm    132       34.1        0.0       0.18400
+  nolags  ridge      gb  dif    392       60.5        0.0      10.00000
+  nolags  ridge      gb  ecm    397       39.8        0.0       1.21000
+  nolags  ridge      id  dif    124       55.6        0.0      10.00000
+  nolags  ridge      id  ecm    128       25.0        0.0       0.07200
+  nolags  ridge      in  dif    203       52.7        0.0      10.00000
+  nolags  ridge      in  ecm    213       61.5        0.0      10.00000
+  nolags  ridge      jp  dif    408       53.4        0.0      10.00000
+  nolags  ridge      jp  ecm    417       22.8        0.0       0.07200
+  nolags  ridge      ru  dif    313       56.2        0.6      10.00000
+  nolags  ridge      ru  ecm    323       42.4        0.0       1.93000
+  nolags  ridge      se  dif    348       61.2        0.0      10.00000
+  nolags  ridge      se  ecm    355       25.1        0.0       0.11500
+  nolags  ridge      za  dif    367       64.6        0.0      10.00000
+  nolags  ridge      za  ecm    377       34.7        0.0       0.37300
+ scaling  lasso      br  dif    363       80.2        0.8      10.00000
+ scaling  lasso      br  ecm    373       50.7        1.3      10.00000
+ scaling  lasso      ca  dif    811       75.2        3.5      10.00000
+ scaling  lasso      ca  ecm    821       37.0        3.2       0.01390
+ scaling  lasso      cn  dif    314       61.8        1.0      10.00000
+ scaling  lasso      cn  ecm    324       39.5        7.1       0.00543
+ scaling  lasso      dk  dif    367       80.7        3.3      10.00000
+ scaling  lasso      dk  ecm    375       45.1        1.1       0.02810
+ scaling  lasso      fr  dif    124       71.8        3.2      10.00000
+ scaling  lasso      fr  ecm    132       37.9        1.5       0.02220
+ scaling  lasso      gb  dif    383       73.4        0.8      10.00000
+ scaling  lasso      gb  ecm    393       69.2        2.0      10.00000
+ scaling  lasso      id  dif    116       76.7        0.0      10.00000
+ scaling  lasso      id  ecm    124       26.6       16.9       0.00615
+ scaling  lasso      in  dif    202       70.3        1.0      10.00000
+ scaling  lasso      in  ecm    212       47.6        3.3       0.01100
+ scaling  lasso      jp  dif    403       65.3        2.5      10.00000
+ scaling  lasso      jp  ecm    413       48.9        2.9       0.02810
+ scaling  lasso      ru  dif    313       73.2        0.6      10.00000
+ scaling  lasso      ru  ecm    323       69.7        5.0      10.00000
+ scaling  lasso      se  dif    345       77.4        2.9      10.00000
+ scaling  lasso      se  ecm    355       41.7        1.7       0.03560
+ scaling  lasso      za  dif    363       81.5        2.2      10.00000
+ scaling  lasso      za  ecm    373       45.0        0.5       0.07200
+ scaling  ridge      br  dif    363       61.2        0.0      10.00000
+ scaling  ridge      br  ecm    373       29.8        0.0       0.37300
+ scaling  ridge      ca  dif    811       53.6        0.0      10.00000
+ scaling  ridge      ca  ecm    821       24.4        0.0       0.09100
+ scaling  ridge      cn  dif    314       29.9        0.0       0.14600
+ scaling  ridge      cn  ecm    324       22.5        2.2       0.02810
+ scaling  ridge      dk  dif    367       66.2        0.3      10.00000
+ scaling  ridge      dk  ecm    375       27.2        0.0       0.09100
+ scaling  ridge      fr  dif    124       67.7        0.0      10.00000
+ scaling  ridge      fr  ecm    132       28.0        0.0       0.23300
+ scaling  ridge      gb  dif    383       59.8        0.0      10.00000
+ scaling  ridge      gb  ecm    393       43.8        0.0       1.53000
+ scaling  ridge      id  dif    116       78.4        0.0      10.00000
+ scaling  ridge      id  ecm    124       18.5        0.0       0.02520
+ scaling  ridge      in  dif    202       41.6        0.0       6.25000
+ scaling  ridge      in  ecm    212       50.5        0.0      10.00000
+ scaling  ridge      jp  dif    403       49.4        0.0       7.91000
+ scaling  ridge      jp  ecm    413       24.2        0.0       0.11500
+ scaling  ridge      ru  dif    313       57.8        0.0      10.00000
+ scaling  ridge      ru  ecm    323       42.1        0.0       2.44000
+ scaling  ridge      se  dif    345       63.5        0.0      10.00000
+ scaling  ridge      se  ecm    355       31.8        0.0       0.23300
+ scaling  ridge      za  dif    363       62.0        0.0      10.00000
+ scaling  ridge      za  ecm    373       36.7        0.0       0.47100
+  window  lasso      br  dif    368       79.6        0.8      10.00000
+  window  lasso      br  ecm    376       50.8        1.3      10.00000
+  window  lasso      ca  dif    820       74.9        3.4      10.00000
+  window  lasso      ca  ecm    828       36.7        3.1       0.01390
+  window  lasso      cn  dif    323       62.2        0.9      10.00000
+  window  lasso      cn  ecm    334       38.3        6.9       0.00543
+  window  lasso      dk  dif    375       80.3        3.2      10.00000
+  window  lasso      dk  ecm    380       44.5        1.1       0.02810
+  window  lasso      fr  dif    132       73.5        3.0      10.00000
+  window  lasso      fr  ecm    140       35.7        1.4       0.02220
+  window  lasso      gb  dif    392       72.7        0.8      10.00000
+  window  lasso      gb  ecm    398       68.3        2.0      10.00000
+  window  lasso      id  dif    124       73.4        0.0      10.00000
+  window  lasso      id  ecm    128       26.6       16.4       0.00615
+  window  lasso      in  dif    212       67.9        1.4      10.00000
+  window  lasso      in  ecm    217       48.8        3.2       0.01100
+  window  lasso      jp  dif    412       65.3        2.4      10.00000
+  window  lasso      jp  ecm    418       48.3        2.9       0.02520
+  window  lasso      ru  dif    323       73.7        0.6      10.00000
+  window  lasso      ru  ecm    328       69.8        4.9      10.00000
+  window  lasso      se  dif    355       76.1        2.8      10.00000
+  window  lasso      se  ecm    362       41.7        1.7       0.03560
+  window  lasso      za  dif    372       81.7        2.2      10.00000
+  window  lasso      za  ecm    378       45.0        0.5       0.07200
+  window  ridge      br  dif    368       60.3        0.0      10.00000
+  window  ridge      br  ecm    376       30.1        0.0       0.37300
+  window  ridge      ca  dif    820       53.8        0.0      10.00000
+  window  ridge      ca  ecm    828       24.2        0.0       0.09100
+  window  ridge      cn  dif    323       30.3        0.0       0.18400
+  window  ridge      cn  ecm    334       21.9        2.1       0.02810
+  window  ridge      dk  dif    375       66.7        0.3      10.00000
+  window  ridge      dk  ecm    380       26.8        0.0       0.09100
+  window  ridge      fr  dif    132       68.2        0.0      10.00000
+  window  ridge      fr  ecm    140       28.6        0.0       0.23300
+  window  ridge      gb  dif    392       59.4        0.0      10.00000
+  window  ridge      gb  ecm    398       43.2        0.0       1.37000
+  window  ridge      id  dif    124       73.4        0.0      10.00000
+  window  ridge      id  ecm    128       18.0        0.0       0.02810
+  window  ridge      in  dif    212       40.6        0.0       5.08000
+  window  ridge      in  ecm    217       51.6        0.0      10.00000
+  window  ridge      jp  dif    412       49.3        0.0       7.91000
+  window  ridge      jp  ecm    418       23.9        0.0       0.11500
+  window  ridge      ru  dif    323       58.8        0.0      10.00000
+  window  ridge      ru  ecm    328       41.5        0.0       2.19000
+  window  ridge      se  dif    355       63.7        0.0      10.00000
+  window  ridge      se  ecm    362       31.8        0.0       0.23300
+  window  ridge      za  dif    372       62.6        0.0      10.00000
+  window  ridge      za  ecm    378       36.8        0.0       0.47100

@@ -1,0 +1,169 @@
+\begingroup\fontsize{8}{10}\selectfont\setlength{\tabcolsep}{3pt}
+
+\begin{ThreePartTable}
+\begin{TableNotes}[para]
+\item \textit{Note:} 
+\item For each horizon, models are listed in elimination order (worst/first-eliminated at top). Avg. Loss is the mean squared forecast loss; p-value (elim.) is the p-value at the step the model was tested for elimination; MCS p-value is the running maximum, i.e. the model's final MCS p-value. A model is retained in the final Model Confidence Set when its MCS p-value is at least alpha = 0.1. Statistic = Tmax, block length k = max(3, h), B = 5000.
+\end{TableNotes}
+\begin{longtable}[t]{cp{5.5cm}ccc}
+\caption{\label{tab:mcs_full_fr}Model Confidence Set -- full elimination sequence, Top-10 pre-filter -- FR}\\
+\toprule
+Horizon & Model & Avg. Loss & p-value (elim.) & MCS p-value\\
+\midrule
+\endfirsthead
+\caption[]{Model Confidence Set -- full elimination sequence, Top-10 pre-filter -- FR \textit{(continued)}}\\
+\toprule
+Horizon & Model & Avg. Loss & p-value (elim.) & MCS p-value\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\insertTableNotes
+\endlastfoot
+h1 & \raggedright Monetary model [ridge] (dif) & 0.0009 & 0.898 & 0.898\\
+h1 & \raggedright Monetary model, UIP deviations [lasso] (dif) & 0.0009 & 0.976 & 0.976\\
+h1 & \raggedright Random Walk & 0.0009 & 0.965 & 0.985\\
+h1 & \raggedright Monetary model [spi] (ecm) & 0.0009 & 0.840 & 0.985\\
+h1 & \raggedright Monetary model, sticky prices, UIP deviations [lasso] (ecm) & 0.0009 & 0.854 & 0.985\\
+h1 & \raggedright Monetary model, UIP deviations [lasso] (ecm) & 0.0009 & 0.663 & 0.985\\
+h1 & \raggedright Monetary model [ridge] (ecm) & 0.0009 & 0.976 & 0.985\\
+h1 & \raggedright Monetary model [pcr] (dif) & 0.0009 & 0.931 & 0.985\\
+h1 & \raggedright Monetary model [lasso] (ecm) & 0.0009 & 0.959 & 0.985\\
+h1 & \raggedright Monetary model [lasso] (dif) & 0.0009 & 0.985 & 0.985\\
+h1 & \raggedright Monetary model [sp] (ecm) & 0.0009 & 1.000 & 1.000\\
+\addlinespace
+h2 & \raggedright Monetary model, UIP deviations [lasso] (dif) & 0.0021 & 0.686 & 0.686\\
+h2 & \raggedright Monetary model [ridge] (ecm) & 0.0021 & 0.766 & 0.766\\
+h2 & \raggedright Random Walk & 0.0020 & 0.873 & 0.955\\
+h2 & \raggedright Monetary model [lasso] (ecm) & 0.0020 & 0.917 & 0.955\\
+h2 & \raggedright Monetary model, UIP deviations [lasso] (ecm) & 0.0020 & 0.930 & 0.955\\
+h2 & \raggedright Monetary model, sticky prices, UIP deviations [lasso] (dif) & 0.0021 & 0.810 & 0.955\\
+h2 & \raggedright Monetary model, sticky prices, UIP deviations [ridge] (dif) & 0.0021 & 0.938 & 0.955\\
+h2 & \raggedright Monetary model, UIP deviations [pcr] (dif) & 0.0021 & 0.955 & 0.955\\
+h2 & \raggedright Monetary model [spi] (ecm) & 0.0020 & 0.965 & 0.965\\
+h2 & \raggedright Monetary model, sticky prices, UIP deviations [earth] (ecm) & 0.0020 & 0.998 & 0.998\\
+h2 & \raggedright Monetary model, sticky prices, UIP deviations [svmr] (dif) & 0.0020 & 1.000 & 1.000\\
+\addlinespace
+h3 & \raggedright Monetary model, UIP deviations [lasso] (dif) & 0.0031 & 0.381 & 0.381\\
+h3 & \raggedright Monetary model, UIP deviations [ridge] (ecm) & 0.0031 & 0.593 & 0.593\\
+h3 & \raggedright Monetary model, UIP deviations [svmlw2] (dif) & 0.0031 & 0.867 & 0.867\\
+h3 & \raggedright Monetary model, UIP deviations [sp] (ecm) & 0.0030 & 0.750 & 0.928\\
+h3 & \raggedright Monetary model [sp] (ecm) & 0.0031 & 0.928 & 0.928\\
+h3 & \raggedright Random Walk & 0.0030 & 0.964 & 0.964\\
+h3 & \raggedright Monetary model [ridge] (ecm) & 0.0030 & 0.825 & 0.964\\
+h3 & \raggedright Monetary model, sticky prices, UIP deviations [lasso] (ecm) & 0.0030 & 0.877 & 0.964\\
+h3 & \raggedright Monetary model, UIP deviations [lasso] (ecm) & 0.0030 & 0.997 & 0.997\\
+h3 & \raggedright Monetary model [lasso] (ecm) & 0.0030 & 0.963 & 0.997\\
+h3 & \raggedright Monetary model [spi] (ecm) & 0.0030 & 1.000 & 1.000\\
+\addlinespace
+h4 & \raggedright Monetary model [svmlw2] (dif) & 0.0039 & 0.583 & 0.583\\
+h4 & \raggedright Monetary model [gam] (dif) & 0.0039 & 0.787 & 0.787\\
+h4 & \raggedright Random Walk & 0.0038 & 0.761 & 0.790\\
+h4 & \raggedright Monetary model, UIP deviations [lasso] (ecm) & 0.0038 & 0.693 & 0.790\\
+h4 & \raggedright Monetary model [spi] (ecm) & 0.0038 & 0.746 & 0.790\\
+h4 & \raggedright Monetary model [svmlw2] (ecm) & 0.0039 & 0.593 & 0.790\\
+h4 & \raggedright Monetary model [lm] (dif) & 0.0039 & 0.790 & 0.790\\
+h4 & \raggedright Monetary model [lasso] (ecm) & 0.0037 & 0.779 & 0.795\\
+h4 & \raggedright Monetary model [ridge] (ecm) & 0.0037 & 0.777 & 0.795\\
+h4 & \raggedright Monetary model, sticky prices, UIP deviations [lasso] (ecm) & 0.0038 & 0.795 & 0.795\\
+h4 & \raggedright Monetary model [pcr] (ecm) & 0.0035 & 1.000 & 1.000\\
+\addlinespace
+h5 & \raggedright Monetary model [svmlw2] (dif) & 0.0041 & 0.909 & 0.909\\
+h5 & \raggedright Monetary model, UIP deviations [ridge] (dif) & 0.0041 & 0.913 & 0.913\\
+h5 & \raggedright Monetary model, UIP deviations [lasso] (dif) & 0.0041 & 0.953 & 0.953\\
+h5 & \raggedright Monetary model [svmlw2] (ecm) & 0.0041 & 0.944 & 0.982\\
+h5 & \raggedright Monetary model, sticky prices [sp] (dif) & 0.0041 & 0.982 & 0.982\\
+h5 & \raggedright Random Walk & 0.0040 & 0.987 & 0.991\\
+h5 & \raggedright Monetary model, UIP deviations [lasso] (ecm) & 0.0039 & 0.181 & 0.991\\
+h5 & \raggedright Monetary model [ridge] (ecm) & 0.0040 & 0.936 & 0.991\\
+h5 & \raggedright Monetary model, sticky prices, UIP deviations [lasso] (ecm) & 0.0040 & 0.991 & 0.991\\
+h5 & \raggedright Monetary model, sticky prices, UIP deviations [spi] (ecm) & 0.0040 & 0.839 & 0.991\\
+h5 & \raggedright Monetary model [lasso] (ecm) & 0.0037 & 1.000 & 1.000\\
+\addlinespace
+h6 & \raggedright Monetary model, UIP deviations [svmlw2] (dif) & 0.0049 & 0.787 & 0.787\\
+h6 & \raggedright Monetary model, sticky prices, UIP deviations [ridge] (dif) & 0.0048 & 0.938 & 0.938\\
+h6 & \raggedright Random Walk & 0.0048 & 0.940 & 0.940\\
+h6 & \raggedright Monetary model, sticky prices [ridge] (dif) & 0.0047 & 0.897 & 0.944\\
+h6 & \raggedright Monetary model [svmlw2] (ecm) & 0.0048 & 0.944 & 0.944\\
+h6 & \raggedright Monetary model, sticky prices, UIP deviations [lasso] (dif) & 0.0045 & 0.797 & 0.997\\
+h6 & \raggedright Monetary model, UIP deviations [lasso] (ecm) & 0.0046 & 0.827 & 0.997\\
+h6 & \raggedright Monetary model, sticky prices [lasso] (dif) & 0.0046 & 0.933 & 0.997\\
+h6 & \raggedright Monetary model, sticky prices, UIP deviations [lasso] (ecm) & 0.0046 & 0.979 & 0.997\\
+h6 & \raggedright Monetary model, sticky prices [spi] (ecm) & 0.0046 & 0.997 & 0.997\\
+h6 & \raggedright Monetary model [lasso] (ecm) & 0.0043 & 1.000 & 1.000\\
+\addlinespace
+h7 & \raggedright Monetary model [ridge] (ecm) & 0.0055 & 0.614 & 0.789\\
+h7 & \raggedright Monetary model, UIP deviations [spi] (ecm) & 0.0055 & 0.771 & 0.789\\
+h7 & \raggedright Monetary model, sticky prices [sp] (ecm) & 0.0056 & 0.789 & 0.789\\
+h7 & \raggedright Monetary model, UIP deviations [svmlw2] (dif) & 0.0053 & 0.861 & 0.861\\
+h7 & \raggedright Random Walk & 0.0050 & 0.799 & 0.986\\
+h7 & \raggedright Monetary model [lasso] (ecm) & 0.0049 & 0.630 & 0.986\\
+h7 & \raggedright Monetary model [sp] (ecm) & 0.0052 & 0.788 & 0.986\\
+h7 & \raggedright Monetary model, UIP deviations [svmlw2] (ecm) & 0.0052 & 0.862 & 0.986\\
+h7 & \raggedright Monetary model [spi] (ecm) & 0.0052 & 0.986 & 0.986\\
+h7 & \raggedright Monetary model, UIP deviations [lasso] (ecm) & 0.0052 & 0.967 & 0.986\\
+h7 & \raggedright Monetary model, sticky prices, UIP deviations [lasso] (ecm) & 0.0047 & 1.000 & 1.000\\
+\addlinespace
+h8 & \raggedright Monetary model [ridge] (ecm) & 0.0067 & 0.729 & 0.729\\
+h8 & \raggedright Random Walk & 0.0058 & 0.841 & 0.885\\
+h8 & \raggedright Monetary model [sp] (ecm) & 0.0054 & 0.730 & 0.885\\
+h8 & \raggedright Monetary model [lasso] (ecm) & 0.0056 & 0.645 & 0.885\\
+h8 & \raggedright Monetary model [spi] (ecm) & 0.0059 & 0.645 & 0.885\\
+h8 & \raggedright Monetary model, UIP deviations [svmlw2] (ecm) & 0.0063 & 0.842 & 0.885\\
+h8 & \raggedright Monetary model, UIP deviations [svmlw2] (dif) & 0.0063 & 0.877 & 0.885\\
+h8 & \raggedright Monetary model, sticky prices, UIP deviations [sp] (ecm) & 0.0064 & 0.864 & 0.885\\
+h8 & \raggedright Monetary model, sticky prices [sp] (ecm) & 0.0064 & 0.885 & 0.885\\
+h8 & \raggedright Monetary model, sticky prices [lasso] (ecm) & 0.0065 & 0.816 & 0.885\\
+h8 & \raggedright Monetary model, sticky prices, UIP deviations [lasso] (ecm) & 0.0052 & 1.000 & 1.000\\
+\addlinespace
+h9 & \raggedright Monetary model, sticky prices [spi] (ecm) & 0.0072 & 0.543 & 0.543\\
+h9 & \raggedright Monetary model, sticky prices, UIP deviations [sp] (ecm) & 0.0073 & 0.611 & 0.611\\
+h9 & \raggedright Monetary model, sticky prices [sp] (ecm) & 0.0068 & 0.945 & 0.945\\
+h9 & \raggedright Random Walk & 0.0065 & 0.398 & 0.964\\
+h9 & \raggedright Monetary model, UIP deviations [lasso] (ecm) & 0.0057 & 0.807 & 0.964\\
+h9 & \raggedright Monetary model [sp] (ecm) & 0.0057 & 0.916 & 0.964\\
+h9 & \raggedright Monetary model [spi] (ecm) & 0.0066 & 0.738 & 0.964\\
+h9 & \raggedright Monetary model [svmlw2] (ecm) & 0.0067 & 0.871 & 0.964\\
+h9 & \raggedright Monetary model, sticky prices [earth] (dif) & 0.0069 & 0.964 & 0.964\\
+h9 & \raggedright Monetary model, sticky prices [lasso] (ecm) & 0.0071 & 0.712 & 0.964\\
+h9 & \raggedright Monetary model [lasso] (ecm) & 0.0056 & 1.000 & 1.000\\
+\addlinespace
+h10 & \raggedright Monetary model, sticky prices, UIP deviations [sp] (ecm) & 0.0078 & 0.864 & 0.864\\
+h10 & \raggedright Random Walk & 0.0073 & 0.976 & 0.976\\
+h10 & \raggedright Monetary model [lasso] (ecm) & 0.0059 & 0.930 & 0.976\\
+h10 & \raggedright Monetary model, UIP deviations [lasso] (ecm) & 0.0060 & 0.942 & 0.976\\
+h10 & \raggedright Monetary model, sticky prices [lasso] (ecm) & 0.0060 & 0.954 & 0.976\\
+h10 & \raggedright Monetary model, UIP deviations [sp] (ecm) & 0.0069 & 0.770 & 0.976\\
+h10 & \raggedright Monetary model [spi] (ecm) & 0.0071 & 0.941 & 0.976\\
+h10 & \raggedright Monetary model, sticky prices [sp] (ecm) & 0.0071 & 0.724 & 0.976\\
+h10 & \raggedright Monetary model [earth] (ecm) & 0.0076 & 0.760 & 0.976\\
+h10 & \raggedright Monetary model, sticky prices, UIP deviations [lasso] (ecm) & 0.0078 & 0.954 & 0.976\\
+h10 & \raggedright Monetary model [sp] (ecm) & 0.0058 & 1.000 & 1.000\\
+\addlinespace
+h11 & \raggedright Random Walk & 0.0084 & 0.958 & 0.958\\
+h11 & \raggedright Monetary model [svmlw2] (ecm) & 0.0083 & 0.960 & 0.960\\
+h11 & \raggedright Monetary model, UIP deviations [lasso] (ecm) & 0.0079 & 0.993 & 0.994\\
+h11 & \raggedright Monetary model, sticky prices [sp] (ecm) & 0.0081 & 0.994 & 0.994\\
+h11 & \raggedright Monetary model [sp] (ecm) & 0.0070 & 0.736 & 0.996\\
+h11 & \raggedright Monetary model [lasso] (ecm) & 0.0076 & 0.861 & 0.996\\
+h11 & \raggedright Monetary model, UIP deviations [sp] (ecm) & 0.0077 & 0.911 & 0.996\\
+h11 & \raggedright Monetary model [forest] (ecm) & 0.0079 & 0.797 & 0.996\\
+h11 & \raggedright Monetary model, sticky prices, UIP deviations [lasso] (ecm) & 0.0080 & 0.996 & 0.996\\
+h11 & \raggedright Monetary model [gamboost] (ecm) & 0.0081 & 0.990 & 0.996\\
+h11 & \raggedright Monetary model, sticky prices [lasso] (ecm) & 0.0065 & 1.000 & 1.000\\
+\addlinespace
+h12 & \raggedright Random Walk & 0.0096 & 0.250 & 0.250\\
+h12 & \raggedright Monetary model, UIP deviations [gam] (ecm) & 0.0088 & 0.784 & 0.784\\
+h12 & \raggedright Monetary model, sticky prices [gamboost] (ecm) & 0.0087 & 0.819 & 0.823\\
+h12 & \raggedright Monetary model, UIP deviations [sp] (ecm) & 0.0087 & 0.823 & 0.823\\
+h12 & \raggedright Monetary model, UIP deviations [lasso] (ecm) & 0.0079 & 0.898 & 0.898\\
+h12 & \raggedright Monetary model [lasso] (ecm) & 0.0079 & 0.880 & 0.898\\
+h12 & \raggedright Monetary model, sticky prices, UIP deviations [lasso] (ecm) & 0.0069 & 0.868 & 0.914\\
+h12 & \raggedright Monetary model, sticky prices [lasso] (ecm) & 0.0070 & 0.883 & 0.914\\
+h12 & \raggedright Monetary model [forest] (ecm) & 0.0077 & 0.780 & 0.914\\
+h12 & \raggedright Monetary model [sp] (ecm) & 0.0078 & 0.914 & 0.914\\
+h12 & \raggedright Monetary model [gamboost] (ecm) & 0.0065 & 1.000 & 1.000\\*
+\end{longtable}
+\end{ThreePartTable}
+\endgroup{}
