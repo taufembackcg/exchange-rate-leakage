@@ -1,6 +1,6 @@
 # Data Leakage and the Apparent Predictability of Exchange Rates with Statistical Learning
 
-Code and results for the paper *Data Leakage and the Apparent Predictability of Exchange Rates with Statistical Learning: Evidence from Developed and BRICS Economies*, by Hudson da Silva Torrent, Cleiton Guollo Taufemback, Wagner Scheid Mallmann and Bernardo Cainelli Gomes da Silva (Universidade Federal do Rio Grande do Sul).
+Code and results for the paper *Data Leakage and the Apparent Predictability of Exchange Rates with Statistical Learning: Evidence from Developed and BRICS Economies*, by Cleiton Guollo Taufemback, Hudson da Silva Torrent, Wagner Scheid Mallmann and Bernardo Cainelli Gomes da Silva (Universidade Federal do Rio Grande do Sul).
 
 The pipeline forecasts monthly exchange rates against the US dollar for six developed countries (Canada, Denmark, France, Japan, Sweden, United Kingdom) and six BRICS economies (Brazil, China, India, Indonesia, Russia, South Africa). It uses five economic models, first-difference and error correction specifications, twelve statistical learning methods and direct forecasts at horizons 1 to 12 months. Each forecast is evaluated against the driftless random walk with the relative RMSE, the Diebold–Mariano and Clark–West tests and the Model Confidence Set.
 
